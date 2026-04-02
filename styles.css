@@ -477,6 +477,23 @@ body.legal-page {
   line-height: 1.35;
 }
 
+.legal-text--impressum h2 {
+  margin-top: 0;
+}
+
+.legal-text--impressum h3 {
+  margin-top: 1.8rem;
+  font-size: clamp(1.15rem, 1.04rem + 0.38vw, 1.42rem);
+}
+
+.legal-impressum-meta {
+  margin-bottom: 0.55rem;
+}
+
+.legal-impressum-block {
+  margin-bottom: 0.6rem;
+}
+
 .legal-text ul {
   margin: 0.2rem 0 1.25rem 1.2rem;
   padding: 0;
