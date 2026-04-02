@@ -22,6 +22,7 @@ function formatLegalText(text, source) {
   const wrapper = document.createElement('div');
   wrapper.className = 'legal-text';
   const isImpressum = source === 'Impressum.txt';
+  const isAgb = source === 'AGB.txt';
 
   if (isImpressum) {
     wrapper.classList.add('legal-text--impressum');
@@ -30,14 +31,14 @@ function formatLegalText(text, source) {
   const normalized = preprocessLegalText(text, source);
   const lines = normalized.split('\n');
   let list = null;
-  let listMode = false;
+  let listMode = null;
 
   for (const rawLine of lines) {
     const trimmed = rawLine.trim();
 
     if (!trimmed) {
       list = null;
-      listMode = false;
+      listMode = null;
       continue;
     }
 
@@ -45,15 +46,25 @@ function formatLegalText(text, source) {
       const impressumNode = createImpressumNode(trimmed);
       if (impressumNode) {
         list = null;
-        listMode = false;
+        listMode = null;
         wrapper.appendChild(impressumNode);
+        continue;
+      }
+    }
+
+    if (isAgb) {
+      const agbNode = createAgbNode(trimmed);
+      if (agbNode) {
+        list = null;
+        listMode = null;
+        wrapper.appendChild(agbNode);
         continue;
       }
     }
 
     if (/^\d+\.\d+\.\s+/.test(trimmed)) {
       list = null;
-      listMode = false;
+      listMode = null;
       const heading = document.createElement('h3');
       heading.textContent = trimmed;
       wrapper.appendChild(heading);
@@ -62,7 +73,7 @@ function formatLegalText(text, source) {
 
     if (/^\d+\.\s+/.test(trimmed)) {
       list = null;
-      listMode = false;
+      listMode = null;
       const heading = document.createElement('h2');
       heading.textContent = trimmed;
       wrapper.appendChild(heading);
@@ -75,9 +86,9 @@ function formatLegalText(text, source) {
         wrapper.appendChild(list);
       }
       const item = document.createElement('li');
-      appendRichText(item, trimmed.replace(/^[\-•]\s*/, ''));
+      appendRichText(item, formatListText(trimmed.replace(/^[\-•]\s*/, ''), listMode));
       list.appendChild(item);
-      listMode = true;
+      listMode = listMode || 'generic';
       continue;
     }
 
@@ -93,13 +104,25 @@ function formatLegalText(text, source) {
 }
 
 function preprocessLegalText(text, source) {
-  return text
+  let normalized = text
     .replace(/\r/g, '')
     .replace(/([^\n])\s+(\d+\.\d+\.\s+)/g, '$1\n$2')
     .replace(/^(\d+\.\d+\.\s+[^.\n:]{2,120})\s+([A-ZÄÖÜ])/gm, '$1\n$2')
-    .replace(/^(\d+\.\s+[^\n]{2,90}?)\s+(?=(Wenn|Um|Im|Bei|Auf|Die|Der|Das|Du|Ich|Bitte|Vasily|Gelegentlich|Diese|Soweit|Bestimmte|Kunden|Verbraucher)\b)/gm, '$1\n')
+    .replace(/^(\d+\.\s+[^\n]{2,90}?)\s+(?=(Wenn|Um|Im|Bei|Auf|Die|Der|Das|Du|Ich|Bitte|Vasily|Gelegentlich|Diese|Soweit|Bestimmte|Kunden)\b)/gm, '$1\n')
+    .replace(/^(Automatische Verlängerung und Kündigung|Widerrufsbelehrung|Folgen des Widerrufs|Vorzeitiges Erlöschen des Widerrufsrechts bei digitalen Inhalten)\s+(?=[A-ZÄÖÜ])/gm, '$1\n')
     .replace(/^(Kontakt:)\s+(.*)$/gm, '$1\n$2')
     .trim();
+
+  if (source === 'Datenschutz.txt') {
+    const paymentSection = normalized.match(/^3\.7\..*$/m);
+
+    if (paymentSection) {
+      normalized = normalized.replace(/\n?^3\.7\..*$/m, '');
+      normalized = normalized.replace(/^4\. Datenverarbeitung auf Social Media-Plattformen$/m, `${paymentSection[0]}\n\n4. Datenverarbeitung auf Social Media-Plattformen`);
+    }
+  }
+
+  return normalized;
 }
 
 function shouldBecomeListItem(line, listMode) {
@@ -127,7 +150,15 @@ function shouldBecomeListItem(line, listMode) {
 }
 
 function shouldStartList(line) {
-  return /(?:bestätigst du, dass:|Folgendes zu unterlassen:|Diese Daten sind:|folgende Rechte hinsichtlich|den folgenden Zweck|den folgenden Zwecken:|die folgenden in Betracht:|ergibt sich über die Einstellungen)/i.test(line);
+  if (/bei der Nutzung$/i.test(line)) {
+    return 'intro-bullets';
+  }
+
+  if (/(?:bestätigst du, dass:|Folgendes zu unterlassen:|Diese Daten sind:|folgende Rechte hinsichtlich|den folgenden Zweck|den folgenden Zwecken:|die folgenden in Betracht:|ergibt sich über die Einstellungen|nachdem du:)/i.test(line)) {
+    return 'generic';
+  }
+
+  return null;
 }
 
 function appendRichText(element, text) {
@@ -204,4 +235,24 @@ function createImpressumNode(line) {
   }
 
   return null;
+}
+
+function createAgbNode(line) {
+  const cleanLine = line.replace(/\.$/, '');
+
+  if (/^(Preisgestaltung|Risiko des Verlustes|Automatische Verlängerung und Kündigung|Widerrufsbelehrung|Folgen des Widerrufs|Vorzeitiges Erlöschen des Widerrufsrechts bei digitalen Inhalten)$/.test(cleanLine)) {
+    const heading = document.createElement('h4');
+    heading.textContent = cleanLine;
+    return heading;
+  }
+
+  return null;
+}
+
+function formatListText(text, listMode) {
+  if (listMode === 'intro-bullets') {
+    return text.replace(/\.$/, '');
+  }
+
+  return text;
 }
