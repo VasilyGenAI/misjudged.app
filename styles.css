@@ -145,16 +145,17 @@ body.legal-page {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  grid-template-columns: minmax(300px, 0.82fr) minmax(0, 1.18fr);
   gap: 1.5rem;
-  align-items: end;
+  align-items: center;
   min-height: calc(100vh - 76px);
   padding: 6rem 0 3.5rem;
 }
 
 .card-glass {
-  background: rgba(255, 255, 255, 0.42);
-  border: 1px solid rgba(255, 255, 255, 0.44);
+  background:
+    linear-gradient(145deg, rgba(229, 242, 251, 0.88), rgba(241, 247, 251, 0.78) 55%, rgba(255, 239, 224, 0.66));
+  border: 1px solid rgba(214, 233, 243, 0.8);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(18px);
@@ -176,7 +177,7 @@ body.legal-page {
 
 .hero__copy h1 {
   font-size: clamp(2.5rem, 6vw, 5.25rem);
-  max-width: 11ch;
+  max-width: 10ch;
 }
 
 .lead {
@@ -241,12 +242,6 @@ body.legal-page {
   border-radius: calc(var(--radius-xl) - 8px);
 }
 
-.visual-caption {
-  margin: 0.9rem 0 0;
-  color: rgba(17, 17, 17, 0.74);
-  font-size: 0.98rem;
-}
-
 .section {
   padding: 5.5rem 0;
 }
@@ -289,8 +284,9 @@ body.legal-page {
 .founder-card,
 .benefit-card,
 .abstract-card {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  background:
+    linear-gradient(145deg, rgba(227, 241, 250, 0.72), rgba(241, 247, 251, 0.62) 58%, rgba(255, 237, 220, 0.34));
+  border: 1px solid rgba(216, 232, 241, 0.72);
 }
 
 .content-card--text {
@@ -322,9 +318,10 @@ body.legal-page {
 
 .rules-layout {
   display: grid;
-  grid-template-columns: minmax(300px, 0.85fr) minmax(0, 1.15fr);
+  grid-template-columns: minmax(320px, 1fr);
   gap: 2rem;
   align-items: center;
+  justify-items: center;
 }
 
 .rules-layout__image img,
@@ -332,17 +329,6 @@ body.legal-page {
   width: 100%;
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-soft);
-}
-
-.rules-layout__content {
-  font-size: 1.08rem;
-}
-
-.mode-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 1.5rem;
 }
 
 .mode-list > div,
