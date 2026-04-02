@@ -421,6 +421,10 @@ body.legal-page {
 .legal-hero h1 {
   font-size: clamp(2.2rem, 5vw, 4rem);
   color: var(--text-dark);
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: auto;
 }
 
 .legal-content {
@@ -579,5 +583,28 @@ body.legal-page {
   .legal-text {
     max-width: none;
     font-size: 1rem;
+  }
+
+  .legal-main {
+    padding: 1.5rem 0 3rem;
+  }
+
+  .legal-hero {
+    margin-bottom: 1rem;
+    border-radius: 22px;
+  }
+
+  .legal-hero h1 {
+    font-size: clamp(1.7rem, 9vw, 2.6rem);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+  }
+
+  .legal-text h2 {
+    font-size: clamp(1.3rem, 6vw, 1.7rem);
+  }
+
+  .legal-text h3 {
+    font-size: clamp(1.05rem, 4.8vw, 1.25rem);
   }
 }
