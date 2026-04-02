@@ -60,7 +60,7 @@ function formatLegalText(text) {
         wrapper.appendChild(list);
       }
       const item = document.createElement('li');
-      item.textContent = trimmed.replace(/^[\-•]\s*/, '');
+      appendRichText(item, trimmed.replace(/^[\-•]\s*/, ''));
       list.appendChild(item);
       previousEndedWithColon = false;
       continue;
@@ -68,16 +68,8 @@ function formatLegalText(text) {
 
     list = null;
 
-    if (shouldBecomeMinorHeading(trimmed)) {
-      const heading = document.createElement('h3');
-      heading.textContent = trimmed;
-      wrapper.appendChild(heading);
-      previousEndedWithColon = false;
-      continue;
-    }
-
     const paragraph = document.createElement('p');
-    paragraph.textContent = trimmed;
+    appendRichText(paragraph, trimmed);
     wrapper.appendChild(paragraph);
     previousEndedWithColon = trimmed.endsWith(':');
   }
@@ -97,18 +89,24 @@ function shouldBecomeListItem(line, previousEndedWithColon) {
   return /^[A-ZÄÖÜ0-9]/.test(line);
 }
 
-function shouldBecomeMinorHeading(line) {
-  if (line.length > 90) {
-    return false;
-  }
+function appendRichText(element, text) {
+  const urlPattern = /(https?:\/\/[^\s]+)/g;
+  const parts = text.split(urlPattern);
 
-  if (/[.!?]/.test(line)) {
-    return false;
-  }
+  for (const part of parts) {
+    if (!part) {
+      continue;
+    }
 
-  if (/^(Vasily Schob|Straße der Jugend 18|14974 Ludwigsfelde|Deutschland|Telefon:|Kontakt:)/.test(line)) {
-    return false;
+    if (/^https?:\/\/[^\s]+$/.test(part)) {
+      const link = document.createElement('a');
+      link.href = part;
+      link.textContent = part;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      element.appendChild(link);
+    } else {
+      element.appendChild(document.createTextNode(part));
+    }
   }
-
-  return /^[A-ZÄÖÜ]/.test(line);
 }

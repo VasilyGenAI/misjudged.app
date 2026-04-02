@@ -448,6 +448,17 @@ body.legal-page {
   overflow-wrap: break-word;
 }
 
+.legal-text a {
+  color: var(--bg-accent-deep);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.14em;
+  overflow-wrap: anywhere;
+}
+
+.legal-text a:hover {
+  color: var(--bg-accent);
+}
+
 .legal-text h2 {
   margin: 2.4rem 0 0.9rem;
   font-family: var(--font-display);
