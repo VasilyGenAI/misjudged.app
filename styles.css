@@ -39,7 +39,7 @@ img {
 }
 
 body.landing-page {
-  color: var(--text-light);
+  color: #17324d;
   background:
     radial-gradient(circle at 12% 14%, rgba(255, 234, 147, 0.55), transparent 32%),
     radial-gradient(circle at 82% 22%, rgba(150, 204, 255, 0.38), transparent 30%),
@@ -70,8 +70,8 @@ body.legal-page {
 }
 
 .site-header--overlay {
-  background: rgba(100, 135, 170, 0.18);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(247, 251, 255, 0.46);
+  border-bottom: 1px solid rgba(23, 50, 77, 0.08);
 }
 
 .site-header--solid {
@@ -83,7 +83,7 @@ body.legal-page {
   font-family: var(--font-display);
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--text-light);
+  color: #17324d;
   letter-spacing: 0.04em;
   text-decoration: none;
 }
@@ -99,7 +99,7 @@ body.legal-page {
 }
 
 .site-nav a {
-  color: var(--text-light);
+  color: #17324d;
   text-decoration: none;
   padding: 0.55rem 0.9rem;
   border-radius: 999px;
@@ -109,8 +109,8 @@ body.legal-page {
 
 .site-nav a:hover,
 .site-nav a[aria-current="page"] {
-  border-color: rgba(255, 255, 255, 0.28);
-  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(23, 50, 77, 0.12);
+  background: rgba(255, 255, 255, 0.38);
 }
 
 .site-nav--dark a {
@@ -133,14 +133,12 @@ body.legal-page {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 14% 18%, rgba(255, 236, 160, 0.55), transparent 28%),
-    radial-gradient(circle at 78% 20%, rgba(165, 215, 255, 0.42), transparent 30%),
-    radial-gradient(circle at 70% 82%, rgba(255, 244, 191, 0.32), transparent 26%),
-    linear-gradient(135deg, rgba(214, 239, 255, 0.84), rgba(252, 251, 239, 0.58) 50%, rgba(255, 241, 175, 0.42)),
-    url("misjudged-backgound-soft.png") center/cover no-repeat;
-  background-blend-mode: screen, screen, screen, multiply, normal;
+    radial-gradient(circle at 14% 18%, rgba(255, 236, 160, 0.58), transparent 30%),
+    radial-gradient(circle at 76% 18%, rgba(161, 214, 255, 0.48), transparent 31%),
+    radial-gradient(circle at 70% 84%, rgba(255, 245, 198, 0.34), transparent 28%),
+    linear-gradient(140deg, rgba(216, 238, 255, 0.92), rgba(238, 247, 255, 0.86) 45%, rgba(255, 245, 191, 0.72));
   transform: scale(1.04);
-  filter: saturate(0.92) blur(1px);
+  filter: saturate(0.95);
 }
 
 .hero__content {
@@ -155,8 +153,8 @@ body.legal-page {
 }
 
 .card-glass {
-  background: rgba(34, 62, 94, 0.28);
-  border: 1px solid rgba(255, 255, 255, 0.26);
+  background: rgba(255, 255, 255, 0.42);
+  border: 1px solid rgba(255, 255, 255, 0.44);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(18px);
@@ -183,7 +181,7 @@ body.legal-page {
 .lead {
   max-width: 60ch;
   font-size: 1.14rem;
-  color: rgba(255, 251, 244, 0.9);
+  color: rgba(23, 50, 77, 0.86);
 }
 
 .eyebrow {
@@ -191,7 +189,7 @@ body.legal-page {
   text-transform: uppercase;
   letter-spacing: 0.16em;
   font-size: 0.78rem;
-  color: #fff1a3;
+  color: #8f6f18;
   font-weight: 700;
 }
 
@@ -227,9 +225,9 @@ body.legal-page {
 }
 
 .button--ghost {
-  border: 1px solid rgba(255, 255, 255, 0.34);
-  color: var(--text-light);
-  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(23, 50, 77, 0.16);
+  color: #17324d;
+  background: rgba(255, 255, 255, 0.28);
 }
 
 .hero__visual {
@@ -244,7 +242,7 @@ body.legal-page {
 
 .visual-caption {
   margin: 0.9rem 0 0;
-  color: rgba(248, 251, 255, 0.86);
+  color: rgba(23, 50, 77, 0.76);
   font-size: 0.98rem;
 }
 
