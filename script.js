@@ -113,6 +113,10 @@ function preprocessLegalText(text, source) {
     .replace(/^(Kontakt:)\s+(.*)$/gm, '$1\n$2')
     .trim();
 
+  if (source === 'AGB.txt') {
+    normalized = normalized.replace(/([^\n])\n([a-zäöüß])/g, '$1 $2');
+  }
+
   if (source === 'Datenschutz.txt') {
     const paymentSection = normalized.match(/^3\.7\..*$/m);
 
@@ -128,6 +132,10 @@ function preprocessLegalText(text, source) {
 function shouldBecomeListItem(line, listMode) {
   if (!listMode) {
     return false;
+  }
+
+  if (listMode === 'intro-bullets') {
+    return /^meiner\b/i.test(line);
   }
 
   if (/^https?:\/\//.test(line)) {
@@ -154,7 +162,7 @@ function shouldStartList(line) {
     return 'intro-bullets';
   }
 
-  if (/(?:bestätigst du, dass:|Folgendes zu unterlassen:|Diese Daten sind:|folgende Rechte hinsichtlich|den folgenden Zweck|den folgenden Zwecken:|die folgenden in Betracht:|ergibt sich über die Einstellungen|nachdem du:)/i.test(line)) {
+  if (/(?:bestätigst du, dass:|Folgendes zu unterlassen:|Diese Daten sind:|folgende Rechte hinsichtlich|den folgenden Zweck|den folgenden Zwecken:|ergibt sich über die Einstellungen|nachdem du:)/i.test(line)) {
     return 'generic';
   }
 
