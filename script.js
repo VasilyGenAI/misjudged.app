@@ -23,46 +23,92 @@ function formatLegalText(text) {
   wrapper.className = 'legal-text';
 
   const normalized = text.replace(/\r/g, '').trim();
-  const blocks = normalized.split(/\n\s*\n/);
+  const lines = normalized.split('\n');
   let list = null;
+  let previousEndedWithColon = false;
 
-  for (const block of blocks) {
-    const trimmed = block.trim();
+  for (const rawLine of lines) {
+    const trimmed = rawLine.trim();
 
     if (!trimmed) {
+      list = null;
+      previousEndedWithColon = false;
       continue;
     }
 
-    if (/^\d+(\.\d+)*\.?\s+/.test(trimmed)) {
+    if (/^\d+\.\d+\.\s+/.test(trimmed)) {
       list = null;
+      previousEndedWithColon = false;
+      const heading = document.createElement('h3');
+      heading.textContent = trimmed;
+      wrapper.appendChild(heading);
+      continue;
+    }
+
+    if (/^\d+\.\s+/.test(trimmed)) {
+      list = null;
+      previousEndedWithColon = false;
       const heading = document.createElement('h2');
       heading.textContent = trimmed;
       wrapper.appendChild(heading);
       continue;
     }
 
-    const lines = trimmed
-      .split('\n')
-      .map((line) => line.trim())
-      .filter(Boolean);
-
-    for (const line of lines) {
-      if (/^[\-•]/.test(line)) {
-        if (!list) {
-          list = document.createElement('ul');
-          wrapper.appendChild(list);
-        }
-        const item = document.createElement('li');
-        item.textContent = line.replace(/^[\-•]\s*/, '');
-        list.appendChild(item);
-      } else {
-        list = null;
-        const paragraph = document.createElement('p');
-        paragraph.textContent = line;
-        wrapper.appendChild(paragraph);
+    if (/^[\-•]/.test(trimmed) || shouldBecomeListItem(trimmed, previousEndedWithColon)) {
+      if (!list) {
+        list = document.createElement('ul');
+        wrapper.appendChild(list);
       }
+      const item = document.createElement('li');
+      item.textContent = trimmed.replace(/^[\-•]\s*/, '');
+      list.appendChild(item);
+      previousEndedWithColon = false;
+      continue;
     }
+
+    list = null;
+
+    if (shouldBecomeMinorHeading(trimmed)) {
+      const heading = document.createElement('h3');
+      heading.textContent = trimmed;
+      wrapper.appendChild(heading);
+      previousEndedWithColon = false;
+      continue;
+    }
+
+    const paragraph = document.createElement('p');
+    paragraph.textContent = trimmed;
+    wrapper.appendChild(paragraph);
+    previousEndedWithColon = trimmed.endsWith(':');
   }
 
   return wrapper;
+}
+
+function shouldBecomeListItem(line, previousEndedWithColon) {
+  if (!previousEndedWithColon) {
+    return false;
+  }
+
+  if (line.length > 220) {
+    return false;
+  }
+
+  return /^[A-ZÄÖÜ0-9]/.test(line);
+}
+
+function shouldBecomeMinorHeading(line) {
+  if (line.length > 90) {
+    return false;
+  }
+
+  if (/[.!?]/.test(line)) {
+    return false;
+  }
+
+  if (/^(Vasily Schob|Straße der Jugend 18|14974 Ludwigsfelde|Deutschland|Telefon:|Kontakt:)/.test(line)) {
+    return false;
+  }
+
+  return /^[A-ZÄÖÜ]/.test(line);
 }
