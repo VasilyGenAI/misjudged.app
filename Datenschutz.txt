@@ -9,10 +9,10 @@ E-Mail: misjudged.support@gmail.com
 
 2. Hosting durch GitHub Pages
 Diese Webseite wird bei GitHub Pages gehostet (Anbieter: GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA). Wenn Sie diese Webseite aufrufen, erfasst der Server von GitHub automatisch Informationen, die Ihr Browser übermittelt, und speichert diese in sogenannten Server-Logfiles. Dazu gehören:
-IP-Adresse
-Datum und Uhrzeit der Anfrage
-Verwendeter Browser und Betriebssystem
-Die aufgerufene Seite
+- IP-Adresse
+- Datum und Uhrzeit der Anfrage
+- Verwendeter Browser und Betriebssystem
+- Die aufgerufene Seite
 Diese Daten werden benötigt, um die Webseite technisch fehlerfrei und sicher auszuliefern. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren und fehlerfreien Bereitstellung der Webseite). Wir haben keinen direkten Zugriff auf diese Logfiles. Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub: https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement.
 
 3. Webanalyse mit Google Analytics
