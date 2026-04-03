@@ -174,7 +174,7 @@ function shouldStartList(line) {
     return 'intro-bullets';
   }
 
-  if (/(?:bestätigst du, dass:|Folgendes zu unterlassen:|Diese Daten sind:|folgende Rechte hinsichtlich|den folgenden Zweck|den folgenden Zwecken:|ergibt sich über die Einstellungen|nachdem du:)/i.test(line)) {
+  if (/(?:bestätigst du, dass:|Folgendes zu unterlassen:|Diese Daten sind:|Dazu gehören:|folgende Rechte hinsichtlich|den folgenden Zweck|den folgenden Zwecken:|ergibt sich über die Einstellungen|nachdem du:)/i.test(line)) {
     return 'generic';
   }
 
