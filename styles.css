@@ -492,6 +492,21 @@ body.legal-page {
   margin-top: 0;
 }
 
+.legal-text h2[id^="teil-"] {
+  margin: 2.8rem 0 1.4rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #fff8ef, #f8eddd);
+  border: 1px solid #ead8bd;
+  box-shadow: 0 10px 30px rgba(191, 156, 102, 0.08);
+  font-size: clamp(1.7rem, 1.35rem + 1vw, 2.35rem);
+  line-height: 1.15;
+}
+
+.legal-text h2[id^="teil-"]:first-child {
+  margin-top: 0;
+}
+
 .legal-text h3 {
   margin: 1.5rem 0 0.65rem;
   font-family: var(--font-display);
@@ -716,6 +731,12 @@ body.legal-page {
 
   .legal-text h2 {
     font-size: clamp(1.3rem, 6vw, 1.7rem);
+  }
+
+  .legal-text h2[id^="teil-"] {
+    padding: 0.95rem 1rem;
+    border-radius: 20px;
+    font-size: clamp(1.45rem, 7vw, 1.95rem);
   }
 
   .legal-text h3 {
