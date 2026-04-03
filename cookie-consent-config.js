@@ -2,9 +2,10 @@ CookieConsent.run({
   guiOptions: {
     consentModal: {
       layout: "box",
-      position: "bottom right"
+      position: "middle center"
     }
   },
+  disablePageInteraction: true,
   categories: {
     necessary: {
       readOnly: true,

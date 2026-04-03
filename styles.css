@@ -525,6 +525,90 @@ body.legal-page {
   font-weight: 700;
 }
 
+#cc-main {
+  --cc-z-index: 9999;
+  --cc-modal-border-radius: 28px;
+  --cc-bg: rgba(249, 252, 255, 0.98);
+  --cc-primary-color: #163f4a;
+  --cc-secondary-color: #111111;
+  --cc-btn-primary-bg: #163f4a;
+  --cc-btn-primary-color: #ffffff;
+  --cc-btn-primary-hover-bg: #1e5563;
+  --cc-btn-secondary-bg: #edf3f7;
+  --cc-btn-secondary-color: #163f4a;
+  --cc-btn-secondary-hover-bg: #dfe8ee;
+}
+
+#cc-main .cm,
+#cc-main .pm {
+  width: min(60vw, 780px);
+  max-width: min(60vw, 780px);
+  border-radius: 28px;
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.28);
+}
+
+#cc-main .cm-wrapper,
+#cc-main .pm-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#cc-main .cm {
+  padding: 1.6rem;
+}
+
+#cc-main .cm__title,
+#cc-main .pm__title {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  line-height: 1.15;
+}
+
+#cc-main .cm__desc,
+#cc-main .pm__section-desc {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+#cc-main .cm__btn-group,
+#cc-main .pm__btn-group {
+  gap: 0.75rem;
+}
+
+#cc-main .pm__section {
+  padding: 1rem 0;
+}
+
+#cc-main .pm__section-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
+#cc-main details {
+  margin-top: 0.75rem;
+  border: 1px solid rgba(22, 63, 74, 0.14);
+  border-radius: 16px;
+  padding: 0.8rem 0.95rem;
+  background: rgba(240, 246, 250, 0.8);
+}
+
+#cc-main summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #163f4a;
+}
+
+#cc-main details p,
+#cc-main details ul {
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+}
+
+#cc-main details ul {
+  padding-left: 1.2rem;
+}
+
 @media (max-width: 960px) {
   .hero__content,
   .grid-two,
@@ -549,6 +633,12 @@ body.legal-page {
 
   .footer-nav {
     justify-content: flex-start;
+  }
+
+  #cc-main .cm,
+  #cc-main .pm {
+    width: min(78vw, 680px);
+    max-width: min(78vw, 680px);
   }
 }
 
@@ -606,5 +696,17 @@ body.legal-page {
 
   .legal-text h3 {
     font-size: clamp(1.05rem, 4.8vw, 1.25rem);
+  }
+
+  #cc-main .cm,
+  #cc-main .pm {
+    width: min(92vw, 92vw);
+    max-width: min(92vw, 92vw);
+    border-radius: 22px;
+  }
+
+  #cc-main .cm-wrapper,
+  #cc-main .pm-wrapper {
+    padding: 1rem;
   }
 }
