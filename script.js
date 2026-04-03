@@ -62,11 +62,22 @@ function formatLegalText(text, source) {
       }
     }
 
+    if (/^Teil\s+\d+:/i.test(trimmed)) {
+      list = null;
+      listMode = null;
+      const heading = document.createElement('h2');
+      heading.textContent = trimmed;
+      heading.id = createHeadingId(trimmed);
+      wrapper.appendChild(heading);
+      continue;
+    }
+
     if (/^\d+\.\d+\.\s+/.test(trimmed)) {
       list = null;
       listMode = null;
       const heading = document.createElement('h3');
       heading.textContent = trimmed;
+      heading.id = createHeadingId(trimmed);
       wrapper.appendChild(heading);
       continue;
     }
@@ -76,6 +87,7 @@ function formatLegalText(text, source) {
       listMode = null;
       const heading = document.createElement('h2');
       heading.textContent = trimmed;
+      heading.id = createHeadingId(trimmed);
       wrapper.appendChild(heading);
       continue;
     }
@@ -201,6 +213,7 @@ function createImpressumNode(line) {
   if (/^(Angaben gemäß § 5 DDG|Anbieter und Verantwortlicher für diese App:|EU-Streitbeilegung|Verbraucherstreitbeilegung \/ Universalschlichtungsstelle|Haftungsausschluss \(Disclaimer\)|Kontakt:)$/.test(line)) {
     const heading = document.createElement('h3');
     heading.textContent = line.replace(/:$/, '');
+    heading.id = createHeadingId(line);
     return heading;
   }
 
@@ -208,9 +221,10 @@ function createImpressumNode(line) {
     const wrapper = document.createElement('div');
     wrapper.className = 'legal-impressum-block';
 
-    const heading = document.createElement('h3');
-    heading.textContent = 'Kontakt';
-    wrapper.appendChild(heading);
+      const heading = document.createElement('h3');
+      heading.textContent = 'Kontakt';
+      heading.id = createHeadingId('Kontakt');
+      wrapper.appendChild(heading);
 
     const paragraph = document.createElement('p');
     appendRichText(paragraph, line.replace(/^Kontakt:\s*/, ''));
@@ -233,6 +247,7 @@ function createImpressumNode(line) {
     if (match) {
       const heading = document.createElement('h3');
       heading.textContent = match[1];
+      heading.id = createHeadingId(match[1]);
       wrapper.appendChild(heading);
 
       const paragraph = document.createElement('p');
@@ -251,6 +266,7 @@ function createAgbNode(line) {
   if (/^(Preisgestaltung|Risiko des Verlustes|Automatische Verlängerung und Kündigung|Widerrufsbelehrung|Folgen des Widerrufs|Vorzeitiges Erlöschen des Widerrufsrechts bei digitalen Inhalten)$/.test(cleanLine)) {
     const heading = document.createElement('h4');
     heading.textContent = cleanLine;
+    heading.id = createHeadingId(cleanLine);
     return heading;
   }
 
@@ -263,4 +279,13 @@ function formatListText(text, listMode) {
   }
 
   return text;
+}
+
+function createHeadingId(text) {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 }

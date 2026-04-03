@@ -433,6 +433,30 @@ body.legal-page {
   border: 1px solid #e9e2d9;
 }
 
+.legal-jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 0 0 1.25rem;
+}
+
+.legal-jump-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  background: #f7f2e8;
+  border: 1px solid #e5d8c2;
+  color: var(--text-dark);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.legal-jump-nav a:hover {
+  background: #f1e7d8;
+}
+
 .legal-text {
   max-width: 78ch;
   font-size: clamp(1rem, 0.95rem + 0.22vw, 1.08rem);

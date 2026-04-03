@@ -1,3 +1,36 @@
+Teil 1: Datenschutz auf dieser Webseite
+1. Wer ist verantwortlich?
+Verantwortlich für die Datenverarbeitung auf dieser Webseite ist:
+Vasily Schob
+Straße der Jugend 18
+14974 Ludwigsfelde
+Deutschland
+E-Mail: misjudged.support@gmail.com
+
+2. Hosting durch GitHub Pages
+Diese Webseite wird bei GitHub Pages gehostet (Anbieter: GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA). Wenn Sie diese Webseite aufrufen, erfasst der Server von GitHub automatisch Informationen, die Ihr Browser übermittelt, und speichert diese in sogenannten Server-Logfiles. Dazu gehören:
+IP-Adresse
+Datum und Uhrzeit der Anfrage
+Verwendeter Browser und Betriebssystem
+Die aufgerufene Seite
+Diese Daten werden benötigt, um die Webseite technisch fehlerfrei und sicher auszuliefern. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren und fehlerfreien Bereitstellung der Webseite). Wir haben keinen direkten Zugriff auf diese Logfiles. Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub: https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement.
+
+3. Webanalyse mit Google Analytics
+Diese Website nutzt Funktionen des Webanalysedienstes Google Analytics. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
+Google Analytics ermöglicht es uns, das Verhalten der Website-Besucher zu analysieren (z. B. Seitenaufrufe, Verweildauer, Klicks auf Download-Links). Google Analytics verwendet Technologien zur Wiedererkennung des Nutzers (z. B. Cookies oder Device-Fingerprinting). Die erfassten Informationen über die Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
+Die Nutzung dieses Analyse-Tools erfolgt ausschließlich auf Grundlage Ihrer ausdrücklichen Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können diese Einwilligung jederzeit über unsere Cookie-Einstellungen widerrufen. Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Mehr Details finden Sie in der Datenschutzerklärung von Google: https://policies.google.com/privacy.
+Detaillierte Cookie-Übersicht für die Webanalyse:
+_ga: 2 Jahre Speicherdauer. Wird verwendet, um Nutzer zu unterscheiden und die Interaktion mit der Website über längere Zeiträume zu erfassen.
+_ga_*: 2 Jahre Speicherdauer. Wird verwendet, um den aktuellen Sitzungsstatus zu speichern und abzurufen.
+_gid: 24 Stunden Speicherdauer. Wird verwendet, um Nutzer für einen Tag lang wiederzuerkennen und deren Verhalten innerhalb dieser Zeit zu gruppieren.
+_gat_*: 1 Minute Speicherdauer. Wird verwendet, um die Anforderungsrate zum Schutz der Google-Server zu drosseln.
+cc_cookie: 6 Monate Speicherdauer. Dies ist das Consent-Cookie unseres eigenen Cookie-Banners. Es merkt sich lediglich, ob Sie dem Tracking zugestimmt oder dieses abgelehnt haben.
+
+4. Ihre Rechte
+Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu können Sie sich jederzeit an die oben angegebene E-Mail-Adresse wenden.
+
+Teil 2: Datenschutz zu App und Social Media
+
 1. Einleitung
 Im Folgenden informiere ich über die Verarbeitung personenbezogener Daten bei der Nutzung
 meiner Website misjudged.app
