@@ -7,76 +7,62 @@ Straße der Jugend 18
 Deutschland
 E-Mail: misjudged.support@gmail.com
 
-2. Hosting durch GitHub Pages
-Diese Webseite wird bei GitHub Pages gehostet (Anbieter: GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA). Wenn Sie diese Webseite aufrufen, erfasst der Server von GitHub automatisch Informationen, die Ihr Browser übermittelt, und speichert diese in sogenannten Server-Logfiles. Dazu gehören:
-- IP-Adresse
-- Datum und Uhrzeit der Anfrage
-- Verwendeter Browser und Betriebssystem
-- Die aufgerufene Seite
-Diese Daten werden benötigt, um die Webseite technisch fehlerfrei und sicher auszuliefern. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren und fehlerfreien Bereitstellung der Webseite). Wir haben keinen direkten Zugriff auf diese Logfiles. Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub: https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement.
-
-3. Webanalyse mit Google Analytics
-Diese Website nutzt Funktionen des Webanalysedienstes Google Analytics. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
-Google Analytics ermöglicht es uns, das Verhalten der Website-Besucher zu analysieren (z. B. Seitenaufrufe, Verweildauer, Klicks auf Download-Links). Google Analytics verwendet Technologien zur Wiedererkennung des Nutzers (z. B. Cookies oder Device-Fingerprinting). Die erfassten Informationen über die Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
-Die Nutzung dieses Analyse-Tools erfolgt ausschließlich auf Grundlage Ihrer ausdrücklichen Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können diese Einwilligung jederzeit über unsere Cookie-Einstellungen widerrufen. Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Mehr Details finden Sie in der Datenschutzerklärung von Google: https://policies.google.com/privacy.
-Detaillierte Cookie-Übersicht für die Webanalyse:
-_ga: 2 Jahre Speicherdauer. Wird verwendet, um Nutzer zu unterscheiden und die Interaktion mit der Website über längere Zeiträume zu erfassen.
-_ga_*: 2 Jahre Speicherdauer. Wird verwendet, um den aktuellen Sitzungsstatus zu speichern und abzurufen.
-_gid: 24 Stunden Speicherdauer. Wird verwendet, um Nutzer für einen Tag lang wiederzuerkennen und deren Verhalten innerhalb dieser Zeit zu gruppieren.
-_gat_*: 1 Minute Speicherdauer. Wird verwendet, um die Anforderungsrate zum Schutz der Google-Server zu drosseln.
-cc_cookie: 6 Monate Speicherdauer. Dies ist das Consent-Cookie unseres eigenen Cookie-Banners. Es merkt sich lediglich, ob Sie dem Tracking zugestimmt oder dieses abgelehnt haben.
-
-4. Ihre Rechte
-Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu können Sie sich jederzeit an die oben angegebene E-Mail-Adresse wenden.
-5. Datenverarbeitung auf meiner Website
-5.1. Hinweis für Websitebesucher aus Deutschland
+2. Datenverarbeitung auf meiner Website
+2.1. Hinweis für Websitebesucher aus Deutschland
 Meine Website speichert Informationen in der Endeinrichtung von Websitebesuchern (z.B. Cookies) oder greift auf Informationen zu, die bereits in der Endeinrichtung gespeichert sind (z.B. IP-Adressen). Welche Informationen dies im Einzelnen sind, ist den folgenden Abschnitten zu entnehmen.
-Diese Speicherung und dieser Zugriff erfolgt auf Grundlage der folgenden Bestimmungen:
-Soweit diese Speicherung oder dieser Zugriff unbedingt erforderlich ist, damit ich dem von Websitebesuchern ausdrücklich gewünschten Dienst meiner Website zur Verfügung stelle (z.B. zur Durchführung eines vom Websitebesucher genutzten Chatbot oder zur Sicherstellung der IT-Sicherheit meiner Website), erfolgt sie auf Grundlage von § 25 Abs. 2 Nr. 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes (TDDDG).
+Diese Speicherung und dieser Zugriff erfolgen auf Grundlage der folgenden Bestimmungen:
+Soweit diese Speicherung oder dieser Zugriff unbedingt erforderlich sind, damit ich dem von Websitebesuchern ausdrücklich gewünschten Dienst meiner Website zur Verfügung stelle oder die IT-Sicherheit meiner Website gewährleiste, erfolgt dies auf Grundlage von § 25 Abs. 2 Nr. 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes (TDDDG).
 Im Übrigen erfolgt diese Speicherung oder dieser Zugriff auf Grundlage der Einwilligung der Websitebesucher (§ 25 Abs. 1 TDDDG).
 Die nachgelagerte Datenverarbeitung erfolgt nach Maßgabe der folgenden Abschnitte und auf Grundlage der Vorschriften der DSGVO.
-5.2. Informatorische Nutzung der Website
-Bei der informatorischen Nutzung der Website, also wenn Seitenbesucher mir nicht gesondert Informationen übermitteln, erhebe ich die personenbezogenen Daten, die der Browser an meinen Server übermittelt, um die Stabilität und Sicherheit meiner Website zu gewährleisten. Darin liegt mein berechtigtes Interesse, so dass Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO ist.
+
+2.2. Informatorische Nutzung der Website
+Bei der informatorischen Nutzung der Website, also wenn Seitenbesucher mir nicht gesondert Informationen übermitteln, erhebe ich die personenbezogenen Daten, die der Browser an meinen Server übermittelt, um die Stabilität und Sicherheit meiner Website zu gewährleisten. Darin liegt mein berechtigtes Interesse, so dass Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. f DSGVO ist.
 Diese Daten sind:
-IP-Adresse
-Datum und Uhrzeit der Anfrage
-Zeitzonendifferenz zur Greenwich Mean Time (GMT)
-Inhalt der Anfrage (konkrete Seite)
-Zugriffsstatus/HTTP-Statuscode
-jeweils übertragene Datenmenge
-Website, von der die Anfrage kommt
-Browser
-Betriebssystem und dessen Oberfläche
-Sprache und Version der Browsersoftware.
+- IP-Adresse
+- Datum und Uhrzeit der Anfrage
+- Zeitzonendifferenz zur Greenwich Mean Time (GMT)
+- Inhalt der Anfrage (konkrete Seite)
+- Zugriffsstatus/HTTP-Statuscode
+- jeweils übertragene Datenmenge
+- Website, von der die Anfrage kommt
+- Browser
+- Betriebssystem und dessen Oberfläche
+- Sprache und Version der Browsersoftware
 Diese Daten werden außerdem in Logfiles gespeichert. Sie werden gelöscht, wenn ihre Speicherung nicht mehr erforderlich ist, spätestens nach 14 Tagen.
-5.3. Webhosting und Bereitstellung der Website
+
+2.3. Webhosting und Bereitstellung der Website
 Meine Website wird über GitHub Pages bereitgestellt. Anbieter ist die GitHub, Inc., 88 Colin P. Kelly Jr. St, San Francisco, CA 94107, USA.
 GitHub verarbeitet beim Aufruf der Website personenbezogene Daten, insbesondere Ihre IP-Adresse, um die Inhalte der Website an Ihr Endgerät zu übermitteln sowie zur Gewährleistung der Sicherheit und Stabilität des Dienstes (Logfiles). Die Rechtsgrundlage für diese Verarbeitung ist mein berechtigtes Interesse an einer sicheren und effizienten Bereitstellung meiner Website gemäß Art. 6 Abs. 1 lit. f DSGVO.
 Da GitHub ein US-Unternehmen ist, kann eine Übermittlung von Daten in die USA nicht ausgeschlossen werden. GitHub stützt sich dabei auf die Standardvertragsklauseln der EU-Kommission sowie das EU-U.S. Data Privacy Framework.
 Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub unter: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement.
-Es ist mein berechtigtes Interesse, eine Website zur Verfügung zu stellen, so dass die Rechtsgrundlage der beschriebenen Datenverarbeitung Art. 6 Abs. 1 S. 1 lit. f DSGVO ist.
 Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist durch gemäß dem Prüfverfahren nach Art. 93 Abs. 2 DSGVO erlassene Standarddatenschutzklauseln gewährleistet (Art. 46 Abs. 2 lit. c DSGVO), die ich mit dem Anbieter vereinbart habe.
-5.4. Kontaktformular
+
+2.4. Kontaktformular
 Bei Kontaktaufnahme über das Kontaktformular auf meiner Website speichere ich die dort abgefragten Daten und den Inhalt der Nachricht.
 Rechtsgrundlage für die Verarbeitung ist mein berechtigtes Interesse, an mich gerichtete Anfragen zu beantworten. Rechtsgrundlage für die Verarbeitung ist deshalb Art. 6 Abs. 1 S. 1 lit. f DSGVO.
 Die in diesem Zusammenhang anfallenden Daten lösche ich, nachdem die Speicherung nicht mehr erforderlich ist, oder schränke die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen.
-5.5. Technisch notwendige Cookies
-Meine Website setzt Cookies. Cookies sind kleine Textdateien, die im Webbrowser auf dem Endgerät eines Seitenbesuchers gespeichert werden. Cookies helfen dabei, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Soweit diese Cookies für den Betrieb meiner Website oder ihre Funktionen erforderlich sind (nachfolgend “Technisch notwendige Cookies”), ist Rechtsgrundlage der damit verbundenen Datenverarbeitung Art. 6 Abs. 1 S. 1 lit. f DSGVO. Ich habe ein berechtigtes Interesse, Kunden und anderen Seitenbesuchern eine funktionsfähige Website zur Verfügung zu stellen.
+
+2.5. Technisch notwendige Cookies
+Meine Website setzt Cookies. Cookies sind kleine Textdateien, die im Webbrowser auf dem Endgerät eines Seitenbesuchers gespeichert werden. Cookies helfen dabei, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Soweit diese Cookies für den Betrieb meiner Website oder ihre Funktionen erforderlich sind (nachfolgend „Technisch notwendige Cookies“), ist Rechtsgrundlage der damit verbundenen Datenverarbeitung Art. 6 Abs. 1 S. 1 lit. f DSGVO. Ich habe ein berechtigtes Interesse, Kunden und anderen Seitenbesuchern eine funktionsfähige Website zur Verfügung zu stellen.
 Konkret setze ich technisch notwendige Cookies zu dem folgenden Zweck oder den folgenden Zwecken:
-Cookies, die Spracheinstellungen übernehmen
-5.6. Drittanbieter
-5.6.1. ​Google Analytics​
-Ich setze Google Analytics zur Analyse ein. Der Anbieter ist Google LLC, 1600 Amphitheatre Parkway Mountain View, CA 94043, USA. Der Anbieter verarbeitet Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten) und Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen) in den USA.
+- Cookies, die Spracheinstellungen übernehmen
+
+2.6. Drittanbieter
+2.6.1. Google Analytics
+Ich setze Google Analytics zur Analyse ein. Anbieter für Nutzer im Europäischen Wirtschaftsraum ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Im Rahmen der Datenverarbeitung kann eine Übermittlung an das Mutterunternehmen Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, erfolgen.
+Der Anbieter verarbeitet Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten) und Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
 Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO. Die Verarbeitung erfolgt auf der Basis von Einwilligungen. Betroffene können ihre Einwilligung jederzeit widerrufen, indem sie mich z.B. unter den in meiner Datenschutzerklärung angegebenen Kontaktdaten kontaktieren. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung bis zum Widerruf.
-Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Angemessenheitsbeschluss. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist gewährleistet, weil die EU-Kommission im Rahmen eines Angemessenheitsbeschluss nach Art. 45 Abs. 3 DSGVO beschlossen hat, dass das Drittland ein angemessenes Schutzniveau bietet.
-Die Daten werden gelöscht, wenn der Zweck ihrer Erhebung entfallen ist und keine Aufbewahrungspflicht entgegensteht. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://policies.google.com/privacy?hl=de abrufbar.
-5.6.2. ​Framer​
+Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://policies.google.com/privacy?hl=de abrufbar.
+
+2.6.2. Framer
 Ich setze Framer zum Design ein. Der Anbieter ist Framer B.V., Rozengracht 207 B, 1016LZ Amsterdam, Niederlande. Der Anbieter verarbeitet Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten) und Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen) in den USA.
 Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO. Die Verarbeitung erfolgt auf der Basis von Einwilligungen. Betroffene können ihre Einwilligung jederzeit widerrufen, indem sie mich z.B. unter den in meiner Datenschutzerklärung angegebenen Kontaktdaten kontaktieren. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung bis zum Widerruf.
 Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist durch gemäß dem Prüfverfahren nach Art. 93 Abs. 2 DSGVO erlassene Standarddatenschutzklauseln gewährleistet (Art. 46 Abs. 2 lit. c DSGVO), die ich mit dem Anbieter vereinbart habe.
 Die Daten werden gelöscht, wenn der Zweck ihrer Erhebung entfallen ist und keine Aufbewahrungspflicht entgegensteht. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://www.framer.com/legal/privacy-statement/ abrufbar.
-5.6.3. FormSubmit
+
+2.6.3. FormSubmit
 Ich setze FormSubmit für das Kontaktformular auf meiner Website ein. Über diesen Dienst werden die im Formular eingegebenen Inhaltsdaten (z.B. Name, E-Mail-Adresse, Betreff und Nachricht) verarbeitet und an meine E-Mail-Adresse weitergeleitet. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://formsubmit.co/privacy.pdf abrufbar.
+
 Teil 2: Datenschutz zu App und Social Media
 
 1. Welche Daten werden bei der Nutzung der App erhoben?
