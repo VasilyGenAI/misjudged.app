@@ -123,6 +123,56 @@
         </article>
       </div>
     </section>
+
+    <section id="kontakt" class="section shell">
+      <div class="section-heading">
+        <p class="eyebrow">Kontakt</p>
+        <h2>Fragen, Feedback oder Kooperationen</h2>
+      </div>
+      <div class="contact-panel content-card">
+        <div class="contact-panel__intro">
+          <p>Wenn du Fragen zum Spiel, zu technischen Themen oder zu einer Zusammenarbeit hast, kannst du hier direkt eine Nachricht senden.</p>
+          <p>Deine Anfrage wird an <strong>misjudged.support@gmail.com</strong> gesendet.</p>
+          <div class="contact-success" id="contact-success" hidden>
+            Deine Nachricht wurde erfolgreich abgesendet.
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" action="https://formsubmit.co/misjudged.support@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Neue Kontaktanfrage über misjudged.app">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" id="contact-next" value="">
+          <input type="hidden" name="_url" id="contact-url" value="">
+          <input type="text" name="_honey" class="contact-form__trap" tabindex="-1" autocomplete="off">
+
+          <label class="contact-form__field">
+            <span>Name</span>
+            <input type="text" name="name" required>
+          </label>
+
+          <label class="contact-form__field">
+            <span>E-Mail</span>
+            <input type="email" name="email" required>
+          </label>
+
+          <label class="contact-form__field">
+            <span>Betreff</span>
+            <input type="text" name="subject" required>
+          </label>
+
+          <label class="contact-form__field">
+            <span>Nachricht</span>
+            <textarea name="message" rows="6" required></textarea>
+          </label>
+
+          <label class="contact-form__check">
+            <input type="checkbox" name="privacy_consent" required>
+            <span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Anfrage zu.</span>
+          </label>
+
+          <button class="button button--primary contact-form__submit" type="submit">Nachricht senden</button>
+        </form>
+      </div>
+    </section>
   </main>
 
   <footer id="rechtliches" class="site-footer">
@@ -132,12 +182,14 @@
         <p>Das Partyspiel für Menschenkenntnis, Selbsteinschätzung und Gespräche, die im Kopf bleiben.</p>
       </div>
       <nav class="footer-nav" aria-label="Rechtliches">
+        <a href="#kontakt">Kontakt</a>
         <a href="agb.html">AGB</a>
         <a href="datenschutz.html">Datenschutz</a>
         <a href="impressum.html">Impressum</a>
       </nav>
     </div>
   </footer>
+  <script src="contact-form.js"></script>
   <script defer src="cookie-consent-config.js"></script>
 </body>
 </html>

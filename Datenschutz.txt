@@ -28,7 +28,55 @@ cc_cookie: 6 Monate Speicherdauer. Dies ist das Consent-Cookie unseres eigenen C
 
 4. Ihre Rechte
 Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu können Sie sich jederzeit an die oben angegebene E-Mail-Adresse wenden.
-
+5. Datenverarbeitung auf meiner Website
+5.1. Hinweis für Websitebesucher aus Deutschland
+Meine Website speichert Informationen in der Endeinrichtung von Websitebesuchern (z.B. Cookies) oder greift auf Informationen zu, die bereits in der Endeinrichtung gespeichert sind (z.B. IP-Adressen). Welche Informationen dies im Einzelnen sind, ist den folgenden Abschnitten zu entnehmen.
+Diese Speicherung und dieser Zugriff erfolgt auf Grundlage der folgenden Bestimmungen:
+Soweit diese Speicherung oder dieser Zugriff unbedingt erforderlich ist, damit ich dem von Websitebesuchern ausdrücklich gewünschten Dienst meiner Website zur Verfügung stelle (z.B. zur Durchführung eines vom Websitebesucher genutzten Chatbot oder zur Sicherstellung der IT-Sicherheit meiner Website), erfolgt sie auf Grundlage von § 25 Abs. 2 Nr. 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes (TDDDG).
+Im Übrigen erfolgt diese Speicherung oder dieser Zugriff auf Grundlage der Einwilligung der Websitebesucher (§ 25 Abs. 1 TDDDG).
+Die nachgelagerte Datenverarbeitung erfolgt nach Maßgabe der folgenden Abschnitte und auf Grundlage der Vorschriften der DSGVO.
+5.2. Informatorische Nutzung der Website
+Bei der informatorischen Nutzung der Website, also wenn Seitenbesucher mir nicht gesondert Informationen übermitteln, erhebe ich die personenbezogenen Daten, die der Browser an meinen Server übermittelt, um die Stabilität und Sicherheit meiner Website zu gewährleisten. Darin liegt mein berechtigtes Interesse, so dass Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO ist.
+Diese Daten sind:
+IP-Adresse
+Datum und Uhrzeit der Anfrage
+Zeitzonendifferenz zur Greenwich Mean Time (GMT)
+Inhalt der Anfrage (konkrete Seite)
+Zugriffsstatus/HTTP-Statuscode
+jeweils übertragene Datenmenge
+Website, von der die Anfrage kommt
+Browser
+Betriebssystem und dessen Oberfläche
+Sprache und Version der Browsersoftware.
+Diese Daten werden außerdem in Logfiles gespeichert. Sie werden gelöscht, wenn ihre Speicherung nicht mehr erforderlich ist, spätestens nach 14 Tagen.
+5.3. Webhosting und Bereitstellung der Website
+Meine Website wird über GitHub Pages bereitgestellt. Anbieter ist die GitHub, Inc., 88 Colin P. Kelly Jr. St, San Francisco, CA 94107, USA.
+GitHub verarbeitet beim Aufruf der Website personenbezogene Daten, insbesondere Ihre IP-Adresse, um die Inhalte der Website an Ihr Endgerät zu übermitteln sowie zur Gewährleistung der Sicherheit und Stabilität des Dienstes (Logfiles). Die Rechtsgrundlage für diese Verarbeitung ist mein berechtigtes Interesse an einer sicheren und effizienten Bereitstellung meiner Website gemäß Art. 6 Abs. 1 lit. f DSGVO.
+Da GitHub ein US-Unternehmen ist, kann eine Übermittlung von Daten in die USA nicht ausgeschlossen werden. GitHub stützt sich dabei auf die Standardvertragsklauseln der EU-Kommission sowie das EU-U.S. Data Privacy Framework.
+Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub unter: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement.
+Es ist mein berechtigtes Interesse, eine Website zur Verfügung zu stellen, so dass die Rechtsgrundlage der beschriebenen Datenverarbeitung Art. 6 Abs. 1 S. 1 lit. f DSGVO ist.
+Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist durch gemäß dem Prüfverfahren nach Art. 93 Abs. 2 DSGVO erlassene Standarddatenschutzklauseln gewährleistet (Art. 46 Abs. 2 lit. c DSGVO), die ich mit dem Anbieter vereinbart habe.
+5.4. Kontaktformular
+Bei Kontaktaufnahme über das Kontaktformular auf meiner Website speichere ich die dort abgefragten Daten und den Inhalt der Nachricht.
+Rechtsgrundlage für die Verarbeitung ist mein berechtigtes Interesse, an mich gerichtete Anfragen zu beantworten. Rechtsgrundlage für die Verarbeitung ist deshalb Art. 6 Abs. 1 S. 1 lit. f DSGVO.
+Die in diesem Zusammenhang anfallenden Daten lösche ich, nachdem die Speicherung nicht mehr erforderlich ist, oder schränke die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen.
+5.5. Technisch notwendige Cookies
+Meine Website setzt Cookies. Cookies sind kleine Textdateien, die im Webbrowser auf dem Endgerät eines Seitenbesuchers gespeichert werden. Cookies helfen dabei, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Soweit diese Cookies für den Betrieb meiner Website oder ihre Funktionen erforderlich sind (nachfolgend “Technisch notwendige Cookies”), ist Rechtsgrundlage der damit verbundenen Datenverarbeitung Art. 6 Abs. 1 S. 1 lit. f DSGVO. Ich habe ein berechtigtes Interesse, Kunden und anderen Seitenbesuchern eine funktionsfähige Website zur Verfügung zu stellen.
+Konkret setze ich technisch notwendige Cookies zu dem folgenden Zweck oder den folgenden Zwecken:
+Cookies, die Spracheinstellungen übernehmen
+5.6. Drittanbieter
+5.6.1. ​Google Analytics​
+Ich setze Google Analytics zur Analyse ein. Der Anbieter ist Google LLC, 1600 Amphitheatre Parkway Mountain View, CA 94043, USA. Der Anbieter verarbeitet Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten) und Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen) in den USA.
+Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO. Die Verarbeitung erfolgt auf der Basis von Einwilligungen. Betroffene können ihre Einwilligung jederzeit widerrufen, indem sie mich z.B. unter den in meiner Datenschutzerklärung angegebenen Kontaktdaten kontaktieren. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung bis zum Widerruf.
+Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Angemessenheitsbeschluss. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist gewährleistet, weil die EU-Kommission im Rahmen eines Angemessenheitsbeschluss nach Art. 45 Abs. 3 DSGVO beschlossen hat, dass das Drittland ein angemessenes Schutzniveau bietet.
+Die Daten werden gelöscht, wenn der Zweck ihrer Erhebung entfallen ist und keine Aufbewahrungspflicht entgegensteht. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://policies.google.com/privacy?hl=de abrufbar.
+5.6.2. ​Framer​
+Ich setze Framer zum Design ein. Der Anbieter ist Framer B.V., Rozengracht 207 B, 1016LZ Amsterdam, Niederlande. Der Anbieter verarbeitet Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten) und Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen) in den USA.
+Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO. Die Verarbeitung erfolgt auf der Basis von Einwilligungen. Betroffene können ihre Einwilligung jederzeit widerrufen, indem sie mich z.B. unter den in meiner Datenschutzerklärung angegebenen Kontaktdaten kontaktieren. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung bis zum Widerruf.
+Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist durch gemäß dem Prüfverfahren nach Art. 93 Abs. 2 DSGVO erlassene Standarddatenschutzklauseln gewährleistet (Art. 46 Abs. 2 lit. c DSGVO), die ich mit dem Anbieter vereinbart habe.
+Die Daten werden gelöscht, wenn der Zweck ihrer Erhebung entfallen ist und keine Aufbewahrungspflicht entgegensteht. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://www.framer.com/legal/privacy-statement/ abrufbar.
+5.6.3. FormSubmit
+Ich setze FormSubmit für das Kontaktformular auf meiner Website ein. Über diesen Dienst werden die im Formular eingegebenen Inhaltsdaten (z.B. Name, E-Mail-Adresse, Betreff und Nachricht) verarbeitet und an meine E-Mail-Adresse weitergeleitet. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://formsubmit.co/privacy.pdf abrufbar.
 Teil 2: Datenschutz zu App und Social Media
 
 1. Welche Daten werden bei der Nutzung der App erhoben?
@@ -112,80 +160,29 @@ Von Zeit zu Zeit führe ich Kundenumfragen durch, um meine Kunden und ihre Wüns
 Ich behalte mir vor, Kunden, die bereits Dienstleistungen von mir in Anspruch genommen haben oder Waren gekauft haben, von Zeit zu Zeit per E-Mail oder auf anderem Weg über meine Angebote zu informieren, falls sie dem nicht widersprochen haben. Rechtsgrundlage für diese Datenverarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO. Mein berechtigtes Interesse liegt in der Direktwerbung (Erwägungsgrund 47 DSGVO). Kunden können der Verwendung ihrer E-Mail-Adresse zu Werbezwecken jederzeit ohne zusätzliche Kosten widersprechen, zum Beispiel über den Link am Ende einer jeden E-Mail oder per E-Mail an meine oben genannte E-Mail-Adresse.
 Auf Grundlage der Einwilligung der Empfänger (Art. 6 Abs. 1 S. 1 lit. a DSGVO) messe ich auch die Öffnungs- und Klickrate meines Newsletters, um zu verstehen, welche Inhalte relevant für meine Empfänger sind.
 Ich versende Newsletter mit dem Tool Brevo des Anbieters Sendinblue GmbH, Köpenicker Str. 126, 10179 Berlin (Datenschutzerklärung: https://de.sendinblue.com/legal/privacypolicy/). Der Anbieter verarbeitet dabei Inhalts-, Nutzungs-, Meta-/Kommunikationsdaten und Kontaktdaten in der EU.
-6. Datenverarbeitung auf meiner Website
-6.1. Hinweis für Websitebesucher aus Deutschland
-Meine Website speichert Informationen in der Endeinrichtung von Websitebesuchern (z.B. Cookies) oder greift auf Informationen zu, die bereits in der Endeinrichtung gespeichert sind (z.B. IP-Adressen). Welche Informationen dies im Einzelnen sind, ist den folgenden Abschnitten zu entnehmen.
-Diese Speicherung und dieser Zugriff erfolgt auf Grundlage der folgenden Bestimmungen:
-Soweit diese Speicherung oder dieser Zugriff unbedingt erforderlich ist, damit ich dem von Websitebesuchern ausdrücklich gewünschten Dienst meiner Website zur Verfügung stelle (z.B. zur Durchführung eines vom Websitebesucher genutzten Chatbot oder zur Sicherstellung der IT-Sicherheit meiner Website), erfolgt sie auf Grundlage von § 25 Abs. 2 Nr. 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes (TDDDG).
-Im Übrigen erfolgt diese Speicherung oder dieser Zugriff auf Grundlage der Einwilligung der Websitebesucher (§ 25 Abs. 1 TDDDG).
-Die nachgelagerte Datenverarbeitung erfolgt nach Maßgabe der folgenden Abschnitte und auf Grundlage der Vorschriften der DSGVO.
-6.2. Informatorische Nutzung der Website
-Bei der informatorischen Nutzung der Website, also wenn Seitenbesucher mir nicht gesondert Informationen übermitteln, erhebe ich die personenbezogenen Daten, die der Browser an meinen Server übermittelt, um die Stabilität und Sicherheit meiner Website zu gewährleisten. Darin liegt mein berechtigtes Interesse, so dass Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO ist.
-Diese Daten sind:
-IP-Adresse
-Datum und Uhrzeit der Anfrage
-Zeitzonendifferenz zur Greenwich Mean Time (GMT)
-Inhalt der Anfrage (konkrete Seite)
-Zugriffsstatus/HTTP-Statuscode
-jeweils übertragene Datenmenge
-Website, von der die Anfrage kommt
-Browser
-Betriebssystem und dessen Oberfläche
-Sprache und Version der Browsersoftware.
-Diese Daten werden außerdem in Logfiles gespeichert. Sie werden gelöscht, wenn ihre Speicherung nicht mehr erforderlich ist, spätestens nach 14 Tagen.
-6.3. Webhosting und Bereitstellung der Website
-Meine Website wird über GitHub Pages bereitgestellt. Anbieter ist die GitHub, Inc., 88 Colin P. Kelly Jr. St, San Francisco, CA 94107, USA.
-GitHub verarbeitet beim Aufruf der Website personenbezogene Daten, insbesondere Ihre IP-Adresse, um die Inhalte der Website an Ihr Endgerät zu übermitteln sowie zur Gewährleistung der Sicherheit und Stabilität des Dienstes (Logfiles). Die Rechtsgrundlage für diese Verarbeitung ist mein berechtigtes Interesse an einer sicheren und effizienten Bereitstellung meiner Website gemäß Art. 6 Abs. 1 lit. f DSGVO.
-Da GitHub ein US-Unternehmen ist, kann eine Übermittlung von Daten in die USA nicht ausgeschlossen werden. GitHub stützt sich dabei auf die Standardvertragsklauseln der EU-Kommission sowie das EU-U.S. Data Privacy Framework.
-Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub unter: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement.
-Es ist mein berechtigtes Interesse, eine Website zur Verfügung zu stellen, so dass die Rechtsgrundlage der beschriebenen Datenverarbeitung Art. 6 Abs. 1 S. 1 lit. f DSGVO ist.
-Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist durch gemäß dem Prüfverfahren nach Art. 93 Abs. 2 DSGVO erlassene Standarddatenschutzklauseln gewährleistet (Art. 46 Abs. 2 lit. c DSGVO), die ich mit dem Anbieter vereinbart habe.
-6.4. Kontaktformular
-Bei Kontaktaufnahme über das Kontaktformular auf meiner Website speichere ich die dort abgefragten Daten und den Inhalt der Nachricht.
-Rechtsgrundlage für die Verarbeitung ist mein berechtigtes Interesse, an mich gerichtete Anfragen zu beantworten. Rechtsgrundlage für die Verarbeitung ist deshalb Art. 6 Abs. 1 S. 1 lit. f DSGVO.
-Die in diesem Zusammenhang anfallenden Daten lösche ich, nachdem die Speicherung nicht mehr erforderlich ist, oder schränke die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen.
-6.5. Technisch notwendige Cookies
-Meine Website setzt Cookies. Cookies sind kleine Textdateien, die im Webbrowser auf dem Endgerät eines Seitenbesuchers gespeichert werden. Cookies helfen dabei, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Soweit diese Cookies für den Betrieb meiner Website oder ihre Funktionen erforderlich sind (nachfolgend “Technisch notwendige Cookies”), ist Rechtsgrundlage der damit verbundenen Datenverarbeitung Art. 6 Abs. 1 S. 1 lit. f DSGVO. Ich habe ein berechtigtes Interesse, Kunden und anderen Seitenbesuchern eine funktionsfähige Website zur Verfügung zu stellen.
-Konkret setze ich technisch notwendige Cookies zu dem folgenden Zweck oder den folgenden Zwecken:
-Cookies, die Spracheinstellungen übernehmen
-6.6. Drittanbieter
-6.6.1. ​Google Analytics​
-Ich setze Google Analytics zur Analyse ein. Der Anbieter ist Google LLC, 1600 Amphitheatre Parkway Mountain View, CA 94043, USA. Der Anbieter verarbeitet Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten) und Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen) in den USA.
-Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO. Die Verarbeitung erfolgt auf der Basis von Einwilligungen. Betroffene können ihre Einwilligung jederzeit widerrufen, indem sie mich z.B. unter den in meiner Datenschutzerklärung angegebenen Kontaktdaten kontaktieren. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung bis zum Widerruf.
-Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Angemessenheitsbeschluss. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist gewährleistet, weil die EU-Kommission im Rahmen eines Angemessenheitsbeschluss nach Art. 45 Abs. 3 DSGVO beschlossen hat, dass das Drittland ein angemessenes Schutzniveau bietet.
-Die Daten werden gelöscht, wenn der Zweck ihrer Erhebung entfallen ist und keine Aufbewahrungspflicht entgegensteht. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://policies.google.com/privacy?hl=de abrufbar.
-6.6.2. ​Framer​
-Ich setze Framer zum Design ein. Der Anbieter ist Framer B.V., Rozengracht 207 B, 1016LZ Amsterdam, Niederlande. Der Anbieter verarbeitet Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten) und Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen) in den USA.
-Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO. Die Verarbeitung erfolgt auf der Basis von Einwilligungen. Betroffene können ihre Einwilligung jederzeit widerrufen, indem sie mich z.B. unter den in meiner Datenschutzerklärung angegebenen Kontaktdaten kontaktieren. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung bis zum Widerruf.
-Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist durch gemäß dem Prüfverfahren nach Art. 93 Abs. 2 DSGVO erlassene Standarddatenschutzklauseln gewährleistet (Art. 46 Abs. 2 lit. c DSGVO), die ich mit dem Anbieter vereinbart habe.
-Die Daten werden gelöscht, wenn der Zweck ihrer Erhebung entfallen ist und keine Aufbewahrungspflicht entgegensteht. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://www.framer.com/legal/privacy-statement/ abrufbar.
-6.6.3. FormBackend
-Ich setze FormBackend für Fragebögen und Formulare ein. Der Anbieter ist Creativegenius, LLC, USA. Der Anbieter verarbeitet Inhaltsdaten (z.B. Eingaben in Onlineformularen) und Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen) in den USA.
-Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO. Die Verarbeitung erfolgt auf der Basis von Einwilligungen. Betroffene können ihre Einwilligung jederzeit widerrufen, indem sie mir z.B. unter den in meiner Datenschutzerklärung angegebenen Kontaktdaten kontaktieren. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung bis zum Widerruf.
-Die Daten werden gelöscht, wenn der Zweck ihrer Erhebung entfallen ist und keine Aufbewahrungspflicht entgegensteht. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://www.formbackend.com/privacy abrufbar.
-7. Datenverarbeitung auf Social Media-Plattformen
+6. Datenverarbeitung auf Social Media-Plattformen
 Ich bin in Social Media-Netzwerken vertreten, um dort mein Gewerbe und meine Leistungen vorzustellen. Die Betreiber dieser Netzwerke verarbeiten Daten ihrer Nutzer regelmäßig zu Werbezwecken. Unter anderem erstellen sie aus ihrem Onlineverhalten Nutzerprofile, die beispielsweise dazu verwendet werden, um auf den Seiten der Netzwerke und auch sonst im Internet Werbung zu zeigen, die den Interessen der Nutzer entspricht. Dazu speichern die Betreiber der Netzwerke Informationen zu dem Nutzungsverhalten in Cookies auf dem Rechner der Nutzer. Es ist außerdem nicht auszuschließen, dass die Betreiber diese Informationen mit weiteren Daten zusammenführen. Weitere Informationen sowie Hinweise, wie Nutzer der Verarbeitung durch die Seitenbetreiber widersprechen können, erhalten Nutzer in den unten aufgeführten Datenschutzerklärungen der jeweiligen Betreiber. Es kann auch sein, dass die Betreiber oder ihre Server in Nicht-EU-Staaten sitzen, so dass sie Daten dort verarbeiten. Hierdurch können sich für die Nutzer Risiken ergeben, z.B. weil die Durchsetzung ihrer Rechte erschwert wird oder staatliche Stellen Zugriff auf die Daten nehmen.
 Wenn Nutzer der Netzwerke mit mir über meine Profile in Kontakt treten, verarbeite ich die mir mitgeteilten Daten, um die Anfragen zu beantworten. Darin liegt mein berechtigtes Interesse, so dass Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. f DSGVO ist.
-7.1. Facebook
+6.1. Facebook
 Ich unterhalte ein Profil auf Facebook. Betreiber ist Meta Platforms Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland. Die Datenschutzerklärung ist hier abrufbar: https://www.facebook.com/policy.php. Eine Möglichkeit, der Datenverarbeitung zu widersprechen, ergibt sich über Einstellungen für Werbeanzeigen: https://www.facebook.com/settings?tab=ads.
 Ich bin auf Grundlage einer Vereinbarung gemeinsam im Sinne von Art. 26 DSGVO mit Facebook für die Verarbeitung der Daten der Besucher meines Profils verantwortlich. Welche Daten genau verarbeitet werden, erklärt Facebook unter https://www.facebook.com/legal/terms/information_about_page_insights_data. Betroffene können ihre Rechte sowohl gegenüber mir als auch gegenüber Facebook wahrnehmen. Nach meiner Vereinbarung mit Facebook bin ich aber dazu verpflichtet, Anfragen an Facebook weiterzuleiten. Betroffene erhalten also eine schnellere Rückmeldung, wenn sie sich direkt an Facebook wenden.
-7.2. Instagram
+6.2. Instagram
 Ich unterhalte ein Profil auf Instagram. Betreiber ist Meta Platforms Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland. Die Datenschutzerklärung ist hier abrufbar: https://help.instagram.com/519522125107875.
-7.3. Snapchat
+6.3. Snapchat
 Ich unterhalte ein Profil auf Snapchat. Betreiber ist Snap Inc., 3000 31st Street, Santa Monica, California 90405, USA. Die Datenschutzerklärung ist hier abrufbar: https://snap.com/de-DE/privacy/privacy-policy.
-7.4. Tiktok
+6.4. Tiktok
 Ich unterhalte ein Profil auf Tiktok. Betreiber ist TikTok Technology Limited, whose registered office is at 10 Earlsfort Terrace, Dublin, D02 T380, Irland. Die Datenschutzerklärung ist hier abrufbar: https://www.tiktok.com/de/privacy-policy.
-7.5. YouTube
+6.5. YouTube
 Ich unterhalte ein Profil auf YouTube. Betreiber ist Google Ireland Limited Gordon House, Barrow Street Dublin 4. Ireland. Die Datenschutzerklärung ist hier abrufbar: https://policies.google.com/privacy?hl=de.
-7.6. X (früher Twitter)
+6.6. X (früher Twitter)
 Ich unterhalte ein Profil auf X. Betreiber ist X Corp., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA. Die Datenschutzerklärung ist hier abrufbar: https://twitter.com/de/privacy. Eine Möglichkeit, der Datenverarbeitung zu widersprechen, ergibt sich über die Einstellungen für Werbeanzeigen: https://twitter.com/personalization.
-7.7. LinkedIn
+6.7. LinkedIn
 Ich unterhalte ein Profil auf LinkedIn. Betreiber ist LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Irland. Die Datenschutzerklärung ist hier abrufbar: https://https://www.linkedin.com/legal/privacy-policy?_l=de_DE. Eine Möglichkeit, der Datenverarbeitung zu widersprechen, ergibt sich über die Einstellungen für Werbeanzeigen: https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out.
-7.8. Threads Ich unterhalte ein Profil auf Threads. Betreiber ist Meta Platforms Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland. Die Datenschutzerklärung ist hier abrufbar: https://help.instagram.com/515230437301944.
-7.9. Pinterest Ich unterhalte ein Profil auf Pinterest. Betreiber ist Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Irland. Die Datenschutzerklärung ist hier abrufbar: https://policy.pinterest.com/de/privacy-policy. Eine Möglichkeit, der Datenverarbeitung zu widersprechen, ergibt sich über die Einstellungen für Personalisierung und Daten: https://help.pinterest.com/de/article/personalization-and-data.
-7.10. Skool Ich unterhalte eine Community (bzw. ein Profil) auf der Plattform Skool. Ich nutze diese Plattform, um dort Informationen und Lerninhalte bereitzustellen, direkt auf Kundenfragen zu antworten und den generellen Austausch mit Kunden und Interessenten zu fördern. Betreiber ist die Skool.com, Inc., USA. Die Datenschutzerklärung sowie weitere rechtliche Richtlinien des Anbieters sind hier abrufbar: https://www.skool.com/legal.
+6.8. Threads Ich unterhalte ein Profil auf Threads. Betreiber ist Meta Platforms Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland. Die Datenschutzerklärung ist hier abrufbar: https://help.instagram.com/515230437301944.
+6.9. Pinterest Ich unterhalte ein Profil auf Pinterest. Betreiber ist Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Irland. Die Datenschutzerklärung ist hier abrufbar: https://policy.pinterest.com/de/privacy-policy. Eine Möglichkeit, der Datenverarbeitung zu widersprechen, ergibt sich über die Einstellungen für Personalisierung und Daten: https://help.pinterest.com/de/article/personalization-and-data.
+6.10. Skool Ich unterhalte eine Community (bzw. ein Profil) auf der Plattform Skool. Ich nutze diese Plattform, um dort Informationen und Lerninhalte bereitzustellen, direkt auf Kundenfragen zu antworten und den generellen Austausch mit Kunden und Interessenten zu fördern. Betreiber ist die Skool.com, Inc., USA. Die Datenschutzerklärung sowie weitere rechtliche Richtlinien des Anbieters sind hier abrufbar: https://www.skool.com/legal.
 Wenn Nutzer über Skool mit mir in Kontakt treten oder in der Community interagieren (z. B. durch das Verfassen von Beiträgen oder Kommentaren), verarbeite ich die mir mitgeteilten Daten, um Anfragen zu beantworten und die Funktionen der Plattform für die Nutzer bereitzustellen. Darin liegt mein berechtigtes Interesse, sodass die Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. f DSGVO ist. Es kann sein, dass der Betreiber oder seine Server in Nicht-EU-Staaten (wie den USA) sitzen, sodass Daten dort verarbeitet werden. Hierdurch können sich für die Nutzer Risiken ergeben. Eine Möglichkeit, der Datenverarbeitung durch den Plattformbetreiber zu widersprechen oder Einstellungen anzupassen, ergibt sich direkt über die persönlichen Account-Einstellungen auf Skool.
-8. Änderungen dieser Datenschutzerklärung
+7. Änderungen dieser Datenschutzerklärung
 Ich behalte mir das Recht vor, diese Datenschutzerklärung mit Wirkung für die Zukunft zu ändern. Eine aktuelle Version ist jeweils hier verfügbar.
-9. Fragen und Kommentare
+8. Fragen und Kommentare
 Für Fragen oder Kommentare bezüglich dieser Datenschutzerklärung stehe ich gern unter den oben angegebenen Kontaktdaten zur Verfügung.

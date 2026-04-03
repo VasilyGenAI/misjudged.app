@@ -356,6 +356,89 @@ body.legal-page {
   gap: 1rem;
 }
 
+.contact-panel {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1.2fr);
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.contact-panel__intro {
+  color: #111111;
+}
+
+.contact-success {
+  margin-top: 1rem;
+  padding: 0.9rem 1rem;
+  border-radius: 16px;
+  background: rgba(216, 239, 225, 0.9);
+  border: 1px solid rgba(78, 138, 102, 0.28);
+  color: #214d31;
+  font-weight: 700;
+}
+
+.contact-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-form__field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.contact-form__field span,
+.contact-form__check {
+  font-size: 0.98rem;
+  color: #111111;
+}
+
+.contact-form__field input,
+.contact-form__field textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(22, 63, 74, 0.14);
+  background: rgba(255, 255, 255, 0.74);
+  color: #111111;
+  font: inherit;
+}
+
+.contact-form__field textarea {
+  resize: vertical;
+  min-height: 160px;
+}
+
+.contact-form__field input:focus,
+.contact-form__field textarea:focus {
+  outline: 2px solid rgba(22, 63, 74, 0.18);
+  border-color: rgba(22, 63, 74, 0.24);
+}
+
+.contact-form__check {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  line-height: 1.5;
+}
+
+.contact-form__check input {
+  margin-top: 0.2rem;
+}
+
+.contact-form__check a {
+  color: #163f4a;
+}
+
+.contact-form__submit {
+  justify-self: start;
+}
+
+.contact-form__trap {
+  position: absolute;
+  left: -9999px;
+}
+
 .site-footer {
   padding: 2rem 0 2.5rem;
   border-top: 1px solid rgba(22, 63, 74, 0.08);
@@ -653,6 +736,7 @@ body.legal-page {
   .grid-two,
   .rules-layout,
   .abstract-card,
+  .contact-panel,
   .footer-grid,
   .benefit-grid {
     grid-template-columns: 1fr;
@@ -696,6 +780,7 @@ body.legal-page {
   .hero__copy,
   .hero__visual,
   .content-card--text,
+  .contact-panel,
   .legal-content,
   .legal-hero {
     padding: 1.25rem;
