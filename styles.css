@@ -840,3 +840,97 @@ body.legal-page {
     padding: 1rem;
   }
 }
+
+.private-page {
+  color: #111111;
+  background:
+    radial-gradient(circle at 16% 16%, rgba(255, 232, 195, 0.66), transparent 30%),
+    radial-gradient(circle at 82% 20%, rgba(182, 213, 255, 0.34), transparent 28%),
+    radial-gradient(circle at 66% 74%, rgba(255, 241, 218, 0.46), transparent 26%),
+    linear-gradient(140deg, #fff6ec 0%, #f6f8ff 44%, #dce8ff 100%);
+}
+
+.private-main {
+  padding: 3rem 0 5rem;
+}
+
+.private-panel,
+.private-video-panel {
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.private-panel {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.private-panel h1,
+.private-video-panel h1 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.1;
+  color: #163f4a;
+}
+
+.private-panel p,
+.private-video-panel p {
+  margin: 0 0 1rem;
+}
+
+.private-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.button--language {
+  min-width: 180px;
+  border: 1px solid transparent;
+  color: #ffffff;
+}
+
+.button--german {
+  background: linear-gradient(135deg, #dc3f3f, #a81616);
+}
+
+.button--german:hover {
+  background: linear-gradient(135deg, #e25454, #be2323);
+}
+
+.button--ukrainian {
+  background: linear-gradient(135deg, #2d7ff0, #144db3);
+}
+
+.button--ukrainian:hover {
+  background: linear-gradient(135deg, #4690f6, #205fcf);
+}
+
+.private-video-layout {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.private-video {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  background: #000000;
+}
+
+.private-video-meta {
+  padding: 1.1rem 1.2rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.58);
+  border: 1px solid rgba(22, 63, 74, 0.1);
+}
+
+.private-video-meta code {
+  display: block;
+  margin-top: 0.4rem;
+  padding: 0.8rem 0.95rem;
+  border-radius: 14px;
+  background: rgba(22, 63, 74, 0.08);
+  overflow-wrap: anywhere;
+}
