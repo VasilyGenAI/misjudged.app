@@ -1,4 +1,21 @@
 const legalContainer = document.querySelector('[data-legal-source]');
+const tutorialVideoContainer = document.querySelector('[data-tutorial-video]');
+
+// Mirrors the app-side language-to-video mapping while keeping the website on YouTube.
+const TUTORIAL_YT_IDS = {
+  de: 'URw6SLj_mpg',
+  en: 'URw6SLj_mpg',
+  uk: '0Vorfx2ZU14',
+};
+
+if (tutorialVideoContainer) {
+  const language = tutorialVideoContainer.dataset.videoLang || 'de';
+  const tutorialVideoId = TUTORIAL_YT_IDS[language];
+
+  if (tutorialVideoId) {
+    tutorialVideoContainer.appendChild(createYoutubeEmbed(tutorialVideoId, language));
+  }
+}
 
 if (legalContainer) {
   const source = legalContainer.dataset.legalSource;
@@ -113,6 +130,27 @@ function formatLegalText(text, source) {
   }
 
   return wrapper;
+}
+
+function createYoutubeEmbed(videoId, language) {
+  const iframe = document.createElement('iframe');
+  const embedUrl = new URL(`https://www.youtube.com/embed/${videoId}`);
+
+  embedUrl.searchParams.set('controls', '1');
+  embedUrl.searchParams.set('rel', '0');
+  embedUrl.searchParams.set('modestbranding', '1');
+
+  iframe.className = 'video-preview__frame';
+  iframe.width = '340';
+  iframe.height = '604';
+  iframe.src = embedUrl.toString();
+  iframe.title = `Misjudged Tutorial ${language.toUpperCase()}`;
+  iframe.loading = 'lazy';
+  iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+  iframe.allowFullscreen = true;
+  iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+
+  return iframe;
 }
 
 function preprocessLegalText(text, source) {

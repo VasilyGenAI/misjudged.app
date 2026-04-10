@@ -468,9 +468,17 @@ body.legal-page {
 }
 
 .video-preview__player {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.video-preview__frame {
   width: min(100%, 340px);
-  max-height: min(72vh, 640px);
+  aspect-ratio: 9 / 16;
+  min-height: 0;
   border-radius: var(--radius-lg);
+  border: 0;
   box-shadow: var(--shadow-soft);
   background: #000000;
 }
@@ -873,9 +881,8 @@ body.legal-page {
     font-size: clamp(1.7rem, 8vw, 2.35rem);
   }
 
-  .video-preview__player {
+  .video-preview__frame {
     width: min(100%, 320px);
-    max-height: 68vh;
   }
 
   #cc-main .cm,
