@@ -129,6 +129,8 @@ Recht auf Widerspruch gegen die Verarbeitung,
 Recht auf Datenübertragbarkeit,
 Recht, eine erteilte Einwilligung jederzeit zu widerrufen.
 Betroffene haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung ihrer personenbezogenen Daten zu beschweren. Kontaktdaten der Datenschutz-Aufsichtsbehörden sind unter https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html abrufbar.
+4.5.1. Löschung von Daten
+Zur Ausübung des Rechts auf Löschung deiner Daten sende bitte eine Anfrage an meine Kontakt-E-Mail-Adresse: misjudged.support@gmail.com.
 4.6. Pflicht zur Bereitstellung von Daten
 Kunden, Interessenten oder Dritte müssen mir im Rahmen einer Geschäftsbeziehung oder sonstigen Beziehung nur diejenigen personenbezogenen Daten bereitstellen, die für die Begründung, Durchführung und Beendigung der Geschäftsbeziehung oder für die sonstige Beziehung erforderlich sind oder zu deren Erhebung ich gesetzlich verpflichtet bin. Ohne diese Daten werde ich in der Regel den Abschluss eines Vertrages oder die Bereitstellung einer Leistung ablehnen müssen oder einen bestehenden Vertrag oder sonstige Beziehung nicht mehr durchführen können.
 Pflichtangaben sind als solche gekennzeichnet.

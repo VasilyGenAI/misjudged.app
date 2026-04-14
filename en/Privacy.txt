@@ -129,6 +129,8 @@ right to object to processing,
 right to data portability,
 right to withdraw consent at any time.
 Data subjects also have the right to lodge a complaint with a data protection supervisory authority regarding the processing of their personal data. Contact details of the data protection supervisory authorities can be found at https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html.
+4.5.1. Deletion of data
+To exercise your right to have your data deleted, please send a request to my contact email address: misjudged.support@gmail.com.
 4.6. Obligation to provide data
 Customers, interested parties, or third parties only need to provide me with those personal data within the context of a business relationship or other relationship that are necessary for the establishment, performance, and termination of the business relationship or other relationship or that I am legally obliged to collect. Without this data, I will generally have to refuse the conclusion of a contract or the provision of a service, or will no longer be able to perform an existing contract or other relationship.
 Mandatory information is marked as such.
