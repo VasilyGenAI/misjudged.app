@@ -1,0 +1,175 @@
+Part 1: Privacy on this Website
+1. Who is responsible?
+The controller responsible for data processing on this website is:
+Vasily Schob
+Straße der Jugend 18
+14974 Ludwigsfelde
+Germany
+Email: misjudged.support@gmail.com
+
+2. Data Processing on My Website
+2.1. Information for website visitors from Germany
+My website stores information on website visitors' end devices (for example cookies) or accesses information already stored on the end device (for example IP addresses). The following sections explain in more detail which information this includes.
+This storage and access take place on the basis of the following provisions:
+To the extent that this storage or access is absolutely necessary in order to provide the service on my website expressly requested by website visitors or to ensure the IT security of my website, it is based on Section 25 para. 2 no. 2 of the German Telecommunications Digital Services Data Protection Act (TDDDG).
+In all other cases, this storage or access takes place on the basis of the website visitor's consent (Section 25 para. 1 TDDDG).
+Any subsequent data processing takes place in accordance with the following sections and on the basis of the GDPR.
+
+2.2. Informational use of the website
+When the website is used for informational purposes only, meaning when visitors do not otherwise provide me with information, I collect the personal data that the browser transmits to my server in order to ensure the stability and security of my website. This constitutes my legitimate interest, so the legal basis is Art. 6 para. 1 sentence 1 lit. f GDPR.
+This data includes:
+- IP address
+- Date and time of the request
+- Time zone difference to Greenwich Mean Time (GMT)
+- Content of the request (specific page)
+- Access status / HTTP status code
+- Amount of data transferred in each case
+- Website from which the request originates
+- Browser
+- Operating system and its interface
+- Language and version of the browser software
+This data is also stored in log files. It is deleted when storage is no longer necessary, at the latest after 14 days.
+
+2.3. Web hosting and provision of the website
+My website is provided through GitHub Pages. The provider is GitHub, Inc., 88 Colin P. Kelly Jr. St, San Francisco, CA 94107, USA.
+When the website is accessed, GitHub processes personal data, in particular your IP address, in order to transmit the contents of the website to your device and to ensure the security and stability of the service (log files). The legal basis for this processing is my legitimate interest in the secure and efficient provision of my website pursuant to Art. 6 para. 1 lit. f GDPR.
+As GitHub is a U.S. company, a transfer of data to the USA cannot be ruled out. GitHub relies on the EU Commission's standard contractual clauses and the EU-U.S. Data Privacy Framework.
+Further information can be found in GitHub's privacy statement at: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement.
+The legal basis for a transfer to a country outside the EEA is the standard contractual clauses. The security of the data transferred to the third country (that is, a country outside the EEA) is ensured by standard data protection clauses adopted under the review procedure pursuant to Art. 93 para. 2 GDPR (Art. 46 para. 2 lit. c GDPR), which I have agreed with the provider.
+
+2.4. Contact form
+When you contact me via the contact form on my website, I store the data requested there and the content of your message.
+The legal basis for the processing is my legitimate interest in responding to inquiries addressed to me. Therefore, the legal basis for the processing is Art. 6 para. 1 sentence 1 lit. f GDPR.
+I delete the data collected in this context after storage is no longer necessary or restrict processing if statutory retention obligations exist.
+
+2.5. Technically necessary cookies
+My website uses cookies. Cookies are small text files stored in the web browser on the end device of a website visitor. Cookies help to make the service more user-friendly, effective, and secure. Insofar as these cookies are required for the operation of my website or its functions (hereinafter “Technically necessary cookies”), the legal basis for the associated data processing is Art. 6 para. 1 sentence 1 lit. f GDPR. I have a legitimate interest in providing customers and other visitors with a functioning website.
+Specifically, I use technically necessary cookies for the following purpose or purposes:
+- Cookies that store language settings
+
+2.6. Third-party providers
+2.6.1. Google Analytics
+I use Google Analytics for analysis. For users in the European Economic Area, the provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. In the context of data processing, data may be transferred to the parent company Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+The provider processes usage data (for example, websites visited, interest in content, access times) and metadata / communication data (for example, device information, IP addresses).
+The legal basis for processing is Art. 6 para. 1 sentence 1 lit. a GDPR. Processing is carried out on the basis of consent. Data subjects can revoke their consent at any time by contacting me, for example via the contact details provided in my privacy policy. Revocation does not affect the lawfulness of processing carried out before the revocation.
+The legal basis for the transfer to a country outside the EEA is the standard contractual clauses. Further information can be found in the provider's privacy policy at https://policies.google.com/privacy?hl=en.
+
+2.6.2. Framer
+I use Framer for design. The provider is Framer B.V., Rozengracht 207 B, 1016LZ Amsterdam, Netherlands. The provider processes usage data (for example, websites visited, interest in content, access times) and metadata / communication data (for example, device information, IP addresses) in the USA.
+The legal basis for processing is Art. 6 para. 1 sentence 1 lit. a GDPR. Processing is carried out on the basis of consent. Data subjects can revoke their consent at any time by contacting me, for example via the contact details provided in my privacy policy. Revocation does not affect the lawfulness of processing carried out before the revocation.
+The legal basis for the transfer to a country outside the EEA is the standard contractual clauses. The security of the data transferred to the third country (that is, a country outside the EEA) is ensured by standard data protection clauses adopted under the review procedure pursuant to Art. 93 para. 2 GDPR (Art. 46 para. 2 lit. c GDPR), which I have agreed with the provider.
+The data is deleted when the purpose for which it was collected no longer applies and there is no retention obligation to the contrary. Further information can be found in the provider's privacy policy at https://www.framer.com/legal/privacy-statement/.
+
+2.6.3. FormSubmit
+I use FormSubmit for the contact form on my website. Through this service, the content data entered into the form (for example name, email address, subject, and message) is processed and forwarded to my email address. Further information can be found in the provider's privacy policy at https://formsubmit.co/privacy.pdf.
+
+Part 2: Privacy for App and Social Media
+
+1. Which data is collected when using the app?
+When you download and use my app, I, together with the third-party providers integrated into it (for example for advertising or error analysis), automatically collect certain technical information. This is technically necessary in order to provide the game functions, save game progress, fix errors, prevent misuse, and, where applicable, display advertising.
+
+The following data and identifiers are collected:
+
+Device and metadata: IP address, device type or device model (for example iPhone 14 or Samsung Galaxy), operating system used and its version (iOS / Android), the system language selected, and your device's time zone.
+
+Advertising identifiers (mobile advertising ID): I process device-specific advertising identifiers. On Apple devices this is the “Identifier for Advertisers” (IDFA), on Android devices the “Google Advertising ID” (AAID). These identifiers are used to display personalized advertising (after your explicit consent), limit the frequency of certain ads, and measure the success of advertising campaigns.
+
+Specific device identifiers (Device ID): Unique device-related identifiers such as the Android ID or the “Identifier for Vendor” (IDFV) on Apple devices. These are used for internal analysis, the detection of fraud or multiple accounts, and the stability of the app.
+
+Interaction and game data: Information about your usage behavior within the app. This includes access timestamps, session duration, used in-app features, in-app purchases, and error and crash reports (crash logs).
+
+Platform accounts (optional): If my app offers sign-in via Apple Game Center or Google Play Games and you use it, I receive a system-specific, pseudonymized user ID from these platforms. This serves solely to securely store your game progress in the cloud and synchronize it across devices.
+
+Legal basis:
+The processing of device and game data for the provision of the app and to ensure its functionality is based on Art. 6 para. 1 lit. b GDPR (performance of a contract). The use of advertising identifiers for tracking and personalized advertising is carried out exclusively on the basis of your consent pursuant to Art. 6 para. 1 lit. a GDPR.
+
+2. Objection and deactivation of advertising IDs (opt-out)
+You can restrict, block, or reset the collection and use of your mobile advertising ID for personalized advertising at any time in your smartphone's system settings:
+
+Apple (iOS): Go to Settings > Privacy & Security > Tracking and deactivate the switch for “Allow Apps to Request to Track”. You can also specifically disable tracking for my app.
+
+Android: Go to Settings > Google > Ads and select “Delete advertising ID” or (depending on the Android version) enable “Opt out of Ads Personalization”.
+
+3. App analytics and troubleshooting (third-party provider)
+In order to continuously improve my app and understand user behavior, I use the analytics service Mixpanel. This service processes the pseudonymized device and usage data described in section 1 only after your explicit consent.
+
+Mixpanel
+I also use Mixpanel as an analytics service to evaluate how my app is used. The provider is Mixpanel, Inc. Mixpanel is only activated after you have expressly given your consent. Without your consent, no analytics tracking via Mixpanel takes place.
+
+If consent is given, Mixpanel processes usage and interaction data in particular in order to improve the functionality and user-friendliness of the app. According to the current implementation, this includes technical information such as app version, platform, and session time, anonymous session identifiers, accessed screens, the time spent on individual screens, the selected app language, the deck used, the number of players in a session, the current round number, and identifiers for displayed cards and selected or confirmed image motifs. It may also be recorded which role a user has in the game context, for example as the selecting or guessing player.
+
+According to the current implementation, no player names, no freely entered texts, and no contact information are transmitted to Mixpanel. Mixpanel may also process technically required basic information such as anonymous device or installation identifiers and general usage and session information. Which data is processed in detail also depends on the specific SDK configuration. Further information on data protection at Mixpanel can be found here: https://mixpanel.com/legal/privacy-policy/ and https://mixpanel.com/legal/app-store-privacy-details/.
+
+Legal basis:
+The analysis of user behavior via Mixpanel is carried out exclusively on the basis of your consent when the app is launched for the first time (Art. 6 para. 1 lit. a GDPR).
+
+4. General privacy information for app and social media
+Below I provide information about the further processing of personal data in connection with my app and my profiles on social media.
+Personal data means any data relating to an identified or identifiable natural person, for example a name or an IP address.
+4.1. Contact details
+The controller pursuant to Art. 4 para. 7 GDPR is Vasily Schob, Straße der Jugend 18, 14974 Ludwigsfelde, Germany, email: misjudged.support@gmail.com.
+4.2. General legal bases and purposes of processing
+I explain the scope of the data processing, processing purposes, and legal bases in detail below. The following may generally serve as the legal basis for data processing:
+Art. 6 para. 1 sentence 1 lit. a GDPR serves as the legal basis for processing operations for which I obtain consent.
+Art. 6 para. 1 sentence 1 lit. b GDPR is the legal basis insofar as the processing of personal data is necessary for the performance of a contract, for example when a visitor purchases a product from me or I provide a service for them. This legal basis also applies to processing that is necessary for pre-contractual measures, for example in the case of inquiries about my products or services.
+Art. 6 para. 1 sentence 1 lit. c GDPR applies when I fulfill a legal obligation by processing personal data, as may be the case under tax law.
+Art. 6 para. 1 sentence 1 lit. f GDPR serves as the legal basis if I can rely on legitimate interests for the processing of personal data, for example for cookies that are necessary for the technical operation of my website.
+4.3. Data processing outside the EEA
+To the extent that I transfer data to service providers or other third parties outside the EEA, adequacy decisions by the European Commission pursuant to Art. 45 para. 3 GDPR guarantee the security of the data when transferred, where such decisions exist, as is the case for example for the United Kingdom, Canada, and Israel.
+When data is transferred to service providers in the USA, the legal basis for the transfer is an adequacy decision by the European Commission if the service provider is additionally certified under the EU-U.S. Data Privacy Framework.
+In other cases (for example when no adequacy decision exists), the legal basis for the transfer is generally, unless I provide different information, the standard contractual clauses. These are a set of rules adopted by the European Commission and form part of the contract with the respective third party. Pursuant to Art. 46 para. 2 lit. b GDPR, they ensure the security of the data transfer. Many providers have given contractual guarantees beyond the standard contractual clauses that protect the data beyond those clauses, for example guarantees concerning data encryption or an obligation on the third party to notify data subjects if law enforcement authorities access the data.
+4.4. Storage period
+Unless expressly stated otherwise in this privacy policy, the data stored by me is deleted as soon as it is no longer required for its purpose and there are no statutory retention obligations preventing deletion. If the data is not deleted because it is required for other legally permissible purposes, its processing is restricted, meaning the data is blocked and not processed for other purposes. This applies, for example, to data that I must retain for commercial or tax law reasons.
+4.5. Rights of data subjects
+Data subjects have the following rights against me with regard to their personal data:
+Right of access,
+right to rectification or erasure,
+right to restriction of processing,
+right to object to processing,
+right to data portability,
+right to withdraw consent at any time.
+Data subjects also have the right to lodge a complaint with a data protection supervisory authority regarding the processing of their personal data. Contact details of the data protection supervisory authorities can be found at https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html.
+4.6. Obligation to provide data
+Customers, interested parties, or third parties only need to provide me with those personal data within the context of a business relationship or other relationship that are necessary for the establishment, performance, and termination of the business relationship or other relationship or that I am legally obliged to collect. Without this data, I will generally have to refuse the conclusion of a contract or the provision of a service, or will no longer be able to perform an existing contract or other relationship.
+Mandatory information is marked as such.
+4.7. No automated decision-making in individual cases
+For the establishment and performance of a business relationship or other relationship, I generally do not use fully automated decision-making in accordance with Article 22 GDPR. If I use such procedures in individual cases, I will provide separate information where required by law.
+4.8. Contacting me
+When you contact me, for example by email or telephone, the data you provide to me (for example names and email addresses) is stored by me in order to answer your questions. The legal basis for the processing is my legitimate interest (Art. 6 para. 1 sentence 1 lit. f GDPR) in responding to inquiries addressed to me. I delete the data collected in this context after storage is no longer necessary or restrict processing if statutory retention obligations exist.
+4.9. Competitions
+From time to time I offer competitions via my website or in other ways. I process the data requested for this purpose in order to determine and notify the winners. I then delete the data. It may also be the case that I offer competitions only to existing customers. In that case I process only the name to determine the winners and the contact details in order to notify the winners. It is my legitimate interest to offer competitions for customer acquisition or for interaction with my existing customers. The legal basis for the data processing is Art. 6 para. 1 sentence 1 lit. f GDPR.
+4.10. Customer surveys
+From time to time I conduct customer surveys to get to know my customers and their wishes better. In doing so, I collect the data requested in each case. It is my legitimate interest to get to know my customers and their wishes better, so the legal basis for the related data processing is Art. 6 para. 1 sentence 1 lit. f GDPR. I delete the data once the survey results have been evaluated.
+5. Newsletter
+I reserve the right to inform customers who have already used my services or purchased goods from me from time to time by email or in another way about my offers, unless they have objected. The legal basis for this data processing is Art. 6 para. 1 sentence 1 lit. f GDPR. My legitimate interest lies in direct marketing (Recital 47 GDPR). Customers can object to the use of their email address for advertising purposes at any time without additional cost, for example via the link at the end of each email or by sending an email to the email address stated above.
+On the basis of the recipients' consent (Art. 6 para. 1 sentence 1 lit. a GDPR), I also measure the open and click rate of my newsletter in order to understand which content is relevant to my recipients.
+I send newsletters using the tool Brevo from the provider Sendinblue GmbH, Köpenicker Str. 126, 10179 Berlin (privacy policy: https://de.sendinblue.com/legal/privacypolicy/). The provider processes content data, usage data, metadata / communication data, and contact data in the EU.
+6. Data processing on social media platforms
+I maintain profiles on social media networks in order to present my business and services there. The operators of these networks regularly process user data for advertising purposes. Among other things, they create user profiles based on online behavior that are used, for example, to display advertising on the platforms and elsewhere on the internet that matches users' interests. For this purpose, the platform operators store information about users' behavior in cookies on their computers. It also cannot be ruled out that the operators combine this information with other data. Further information and notes on how users can object to processing by the platform operators can be found in the privacy policies of the respective operators listed below. It is also possible that the operators or their servers are located in non-EU countries so that they process data there. This may give rise to risks for users, for example because the enforcement of their rights is made more difficult or public authorities gain access to the data.
+When users contact me via my profiles on the networks, I process the data communicated to me in order to answer the inquiries. This is my legitimate interest, so the legal basis is Art. 6 para. 1 sentence 1 lit. f GDPR.
+6.1. Facebook
+I maintain a profile on Facebook. The operator is Meta Platforms Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland. The privacy policy is available here: https://www.facebook.com/policy.php. A possibility to object to data processing arises via the ad settings: https://www.facebook.com/settings?tab=ads.
+On the basis of an agreement, I am jointly responsible with Facebook within the meaning of Art. 26 GDPR for the processing of the data of visitors to my profile. Facebook explains which data is processed in detail at https://www.facebook.com/legal/terms/information_about_page_insights_data. Data subjects can exercise their rights both against me and against Facebook. Under my agreement with Facebook, however, I am obliged to forward requests to Facebook. Data subjects therefore receive a faster response if they contact Facebook directly.
+6.2. Instagram
+I maintain a profile on Instagram. The operator is Meta Platforms Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland. The privacy policy is available here: https://help.instagram.com/519522125107875.
+6.3. Snapchat
+I maintain a profile on Snapchat. The operator is Snap Inc., 3000 31st Street, Santa Monica, California 90405, USA. The privacy policy is available here: https://snap.com/en-US/privacy/privacy-policy.
+6.4. TikTok
+I maintain a profile on TikTok. The operator is TikTok Technology Limited, whose registered office is at 10 Earlsfort Terrace, Dublin, D02 T380, Ireland. The privacy policy is available here: https://www.tiktok.com/legal/privacy-policy?lang=en.
+6.5. YouTube
+I maintain a profile on YouTube. The operator is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. The privacy policy is available here: https://policies.google.com/privacy?hl=en.
+6.6. X (formerly Twitter)
+I maintain a profile on X. The operator is X Corp., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA. The privacy policy is available here: https://twitter.com/en/privacy. A possibility to object to data processing arises via the ad settings: https://twitter.com/personalization.
+6.7. LinkedIn
+I maintain a profile on LinkedIn. The operator is LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Ireland. The privacy policy is available here: https://www.linkedin.com/legal/privacy-policy?_l=en_US. A possibility to object to data processing arises via the ad settings: https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out.
+6.8. Threads
+I maintain a profile on Threads. The operator is Meta Platforms Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland. The privacy policy is available here: https://help.instagram.com/515230437301944.
+6.9. Pinterest
+I maintain a profile on Pinterest. The operator is Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Ireland. The privacy policy is available here: https://policy.pinterest.com/en/privacy-policy. A possibility to object to data processing arises via the personalization and data settings: https://help.pinterest.com/en/article/personalization-and-data.
+6.10. Skool
+I maintain a community (or profile) on the Skool platform. I use this platform to provide information and learning content, respond directly to customer questions, and generally encourage exchange with customers and interested parties. The operator is Skool.com, Inc., USA. The provider's privacy policy and further legal guidelines are available here: https://www.skool.com/legal.
+If users contact me via Skool or interact in the community (for example by writing posts or comments), I process the data communicated to me in order to answer inquiries and provide the functions of the platform for the users. This is my legitimate interest, so the legal basis is Art. 6 para. 1 sentence 1 lit. f GDPR. It is possible that the operator or its servers are located in non-EU countries (such as the USA), so data may be processed there. This may give rise to risks for users. A possibility to object to data processing by the platform operator or to adjust settings is available directly in the personal account settings on Skool.
+7. Changes to this privacy policy
+I reserve the right to amend this privacy policy with effect for the future. A current version is always available here.
+8. Questions and comments
+If you have questions or comments regarding this privacy policy, please feel free to contact me using the contact details given above.

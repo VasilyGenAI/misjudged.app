@@ -1,11 +1,81 @@
 const legalContainer = document.querySelector('[data-legal-source]');
 const tutorialVideoContainer = document.querySelector('[data-tutorial-video]');
+const siteLanguage = document.documentElement.lang === 'uk' ? 'uk' : document.documentElement.lang === 'en' ? 'en' : 'de';
 
 // Mirrors the app-side language-to-video mapping while keeping the website on YouTube.
 const TUTORIAL_YT_IDS = {
   de: 'URw6SLj_mpg',
   en: 'URw6SLj_mpg',
   uk: '0Vorfx2ZU14',
+};
+
+const LEGAL_TEXT = {
+  de: {
+    imprintTitle: 'Impressum',
+    sectionHeadings: [
+      'Angaben gemäß § 5 DDG',
+      'Anbieter und Verantwortlicher für diese App:',
+      'EU-Streitbeilegung',
+      'Verbraucherstreitbeilegung / Universalschlichtungsstelle',
+      'Haftungsausschluss (Disclaimer)',
+      'Kontakt:',
+    ],
+    contactLabel: 'Kontakt',
+    metaPatterns: [/^Vasily Schob/, /^Straße der Jugend 18/, /^14974 Ludwigsfelde/, /^Deutschland$/, /^Telefon:/],
+    liabilityHeadings: ['Haftung für Inhalte', 'Haftung für Links'],
+    agbSubHeadings: [
+      'Preisgestaltung',
+      'Risiko des Verlustes',
+      'Automatische Verlängerung und Kündigung',
+      'Widerrufsbelehrung',
+      'Folgen des Widerrufs',
+      'Vorzeitiges Erlöschen des Widerrufsrechts bei digitalen Inhalten',
+    ],
+  },
+  en: {
+    imprintTitle: 'Imprint',
+    sectionHeadings: [
+      'Information according to Section 5 DDG',
+      'Provider and person responsible for this app:',
+      'EU dispute resolution',
+      'Consumer dispute resolution / universal arbitration board',
+      'Disclaimer',
+      'Contact:',
+    ],
+    contactLabel: 'Contact',
+    metaPatterns: [/^Vasily Schob/, /^Straße der Jugend 18/, /^14974 Ludwigsfelde/, /^Germany$/, /^Phone:/],
+    liabilityHeadings: ['Liability for Content', 'Liability for Links'],
+    agbSubHeadings: [
+      'Pricing',
+      'Risk of Loss',
+      'Automatic Renewal and Termination',
+      'Right of Withdrawal',
+      'Consequences of Withdrawal',
+      'Early Expiry of the Right of Withdrawal for Digital Content',
+    ],
+  },
+  uk: {
+    imprintTitle: 'Вихідні дані',
+    sectionHeadings: [
+      'Інформація відповідно до § 5 DDG',
+      'Постачальник і відповідальна особа за цей застосунок:',
+      'Врегулювання спорів у ЄС',
+      'Споживче врегулювання спорів / універсальна арбітражна установа',
+      'Відмова від відповідальності',
+      'Контакт:',
+    ],
+    contactLabel: 'Контакт',
+    metaPatterns: [/^Vasily Schob/, /^Straße der Jugend 18/, /^14974 Ludwigsfelde/, /^Німеччина$/, /^Телефон:/],
+    liabilityHeadings: ['Відповідальність за зміст', 'Відповідальність за посилання'],
+    agbSubHeadings: [
+      'Ціноутворення',
+      'Ризик втрати',
+      'Автоматичне продовження та розірвання',
+      'Право на відмову',
+      'Наслідки відмови',
+      'Дострокове припинення права на відмову для цифрового контенту',
+    ],
+  },
 };
 
 if (tutorialVideoContainer) {
@@ -154,6 +224,9 @@ function createYoutubeEmbed(videoId, language) {
 }
 
 function preprocessLegalText(text, source) {
+  const sourceName = source.toLowerCase();
+  const isTermsSource = sourceName === 'agb.txt' || sourceName === 'terms.txt';
+  const isPrivacySource = sourceName === 'datenschutz.txt' || sourceName === 'privacy.txt';
   let normalized = text
     .replace(/\r/g, '')
     .replace(/([^\n])\s+(\d+\.\d+\.\s+)/g, '$1\n$2')
@@ -163,11 +236,11 @@ function preprocessLegalText(text, source) {
     .replace(/^(Kontakt:)\s+(.*)$/gm, '$1\n$2')
     .trim();
 
-  if (source === 'AGB.txt') {
+  if (isTermsSource) {
     normalized = normalized.replace(/([^\n])\n([a-zäöüß])/g, '$1 $2');
   }
 
-  if (source === 'Datenschutz.txt') {
+  if (isPrivacySource) {
     const paymentSection = normalized.match(/^3\.7\..*$/m);
 
     if (paymentSection) {
@@ -242,13 +315,15 @@ function appendRichText(element, text) {
 }
 
 function createImpressumNode(line) {
-  if (line === 'Impressum') {
+  const locale = LEGAL_TEXT[siteLanguage];
+
+  if (line === locale.imprintTitle) {
     const heading = document.createElement('h2');
     heading.textContent = line;
     return heading;
   }
 
-  if (/^(Angaben gemäß § 5 DDG|Anbieter und Verantwortlicher für diese App:|EU-Streitbeilegung|Verbraucherstreitbeilegung \/ Universalschlichtungsstelle|Haftungsausschluss \(Disclaimer\)|Kontakt:)$/.test(line)) {
+  if (locale.sectionHeadings.includes(line)) {
     const heading = document.createElement('h3');
     heading.textContent = line.replace(/:$/, '');
     heading.id = createHeadingId(line);
@@ -259,10 +334,10 @@ function createImpressumNode(line) {
     const wrapper = document.createElement('div');
     wrapper.className = 'legal-impressum-block';
 
-      const heading = document.createElement('h3');
-      heading.textContent = 'Kontakt';
-      heading.id = createHeadingId('Kontakt');
-      wrapper.appendChild(heading);
+    const heading = document.createElement('h3');
+    heading.textContent = locale.contactLabel;
+    heading.id = createHeadingId(locale.contactLabel);
+    wrapper.appendChild(heading);
 
     const paragraph = document.createElement('p');
     appendRichText(paragraph, line.replace(/^Kontakt:\s*/, ''));
@@ -270,38 +345,53 @@ function createImpressumNode(line) {
     return wrapper;
   }
 
-  if (/^(Vasily Schob|Straße der Jugend 18|14974 Ludwigsfelde|Deutschland|Telefon:)/.test(line)) {
+  if (/^Contact:\s+/.test(line) || /^Контакт:\s+/.test(line)) {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'legal-impressum-block';
+
+    const heading = document.createElement('h3');
+    heading.textContent = locale.contactLabel;
+    heading.id = createHeadingId(locale.contactLabel);
+    wrapper.appendChild(heading);
+
+    const paragraph = document.createElement('p');
+    appendRichText(paragraph, line.replace(/^(Contact|Контакт):\s*/, ''));
+    wrapper.appendChild(paragraph);
+    return wrapper;
+  }
+
+  if (locale.metaPatterns.some((pattern) => pattern.test(line))) {
     const paragraph = document.createElement('p');
     paragraph.className = 'legal-impressum-meta';
     appendRichText(paragraph, line);
     return paragraph;
   }
 
-  if (/^(Haftung für Inhalte|Haftung für Links)\b/.test(line)) {
+  const matchingLiabilityHeading = locale.liabilityHeadings.find((heading) => line.startsWith(`${heading} `));
+  if (matchingLiabilityHeading) {
     const wrapper = document.createElement('div');
     wrapper.className = 'legal-impressum-block';
 
-    const match = line.match(/^(Haftung für Inhalte|Haftung für Links)\s+(.*)$/);
-    if (match) {
-      const heading = document.createElement('h3');
-      heading.textContent = match[1];
-      heading.id = createHeadingId(match[1]);
-      wrapper.appendChild(heading);
+    const paragraphText = line.slice(matchingLiabilityHeading.length).trim();
+    const heading = document.createElement('h3');
+    heading.textContent = matchingLiabilityHeading;
+    heading.id = createHeadingId(matchingLiabilityHeading);
+    wrapper.appendChild(heading);
 
-      const paragraph = document.createElement('p');
-      appendRichText(paragraph, match[2]);
-      wrapper.appendChild(paragraph);
-      return wrapper;
-    }
+    const paragraph = document.createElement('p');
+    appendRichText(paragraph, paragraphText);
+    wrapper.appendChild(paragraph);
+    return wrapper;
   }
 
   return null;
 }
 
 function createAgbNode(line) {
+  const locale = LEGAL_TEXT[siteLanguage];
   const cleanLine = line.replace(/\.$/, '');
 
-  if (/^(Preisgestaltung|Risiko des Verlustes|Automatische Verlängerung und Kündigung|Widerrufsbelehrung|Folgen des Widerrufs|Vorzeitiges Erlöschen des Widerrufsrechts bei digitalen Inhalten)$/.test(cleanLine)) {
+  if (locale.agbSubHeadings.includes(cleanLine)) {
     const heading = document.createElement('h4');
     heading.textContent = cleanLine;
     heading.id = createHeadingId(cleanLine);
@@ -324,6 +414,6 @@ function createHeadingId(text) {
     .toLowerCase()
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/[^\p{Letter}\p{Number}]+/gu, '-')
     .replace(/^-+|-+$/g, '');
 }
