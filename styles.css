@@ -264,6 +264,7 @@ body.legal-page {
 .hero__visual {
   padding: 1rem;
   align-self: center;
+  justify-self: center;
 }
 
 .hero__welcome {
@@ -835,6 +836,59 @@ body.legal-page {
   #cc-main .pm {
     width: min(78vw, 680px);
     max-width: min(78vw, 680px);
+  }
+}
+
+@media (min-width: 961px) {
+  .site-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "brand nav lang";
+    align-items: center;
+    column-gap: 1.25rem;
+    row-gap: 0.75rem;
+  }
+
+  .brand {
+    grid-area: brand;
+  }
+
+  .site-nav {
+    grid-area: nav;
+    justify-self: end;
+  }
+
+  .lang-switch {
+    grid-area: lang;
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+
+  .hero__content {
+    width: min(1280px, calc(100vw - 4rem));
+    grid-template-columns: minmax(360px, 0.92fr) minmax(540px, 1.08fr);
+    gap: clamp(2rem, 4vw, 4rem);
+    padding: 7rem 0 4.5rem;
+  }
+
+  .hero__visual {
+    width: min(100%, 420px);
+    justify-self: end;
+  }
+
+  .hero__copy {
+    max-width: 620px;
+    padding: 2.4rem 2.3rem;
+  }
+
+  .hero__copy h1 {
+    max-width: 13ch;
+    font-size: clamp(3.4rem, 4.8vw, 5.75rem);
+  }
+
+  .lead {
+    max-width: 52ch;
+    font-size: 1.18rem;
   }
 }
 
