@@ -5,7 +5,7 @@ const siteLanguage = document.documentElement.lang === 'uk' ? 'uk' : document.do
 // Mirrors the app-side language-to-video mapping while keeping the website on YouTube.
 const TUTORIAL_YT_IDS = {
   de: 'URw6SLj_mpg',
-  en: 'URw6SLj_mpg',
+  en: 'tNL-BMMzAr4',
   uk: '0Vorfx2ZU14',
 };
 
