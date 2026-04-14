@@ -91,19 +91,17 @@ Apple (iOS): Gehe zu Einstellungen > Datenschutz & Sicherheit > Tracking und dea
 Android: Gehe zu Einstellungen > Google > Anzeigen und wähle die Option „Werbe-ID löschen“ oder (je nach Android-Version) aktiviere „Personalisierte Werbung deaktivieren“.
 
 3. App-Analyse und Fehlerbehebung (Drittanbieter)
-Um meine App stetig zu verbessern, technische Fehler schnell zu beheben und das Nutzerverhalten zu verstehen, nutze ich Analyse-Dienste von Drittanbietern. Diese Tools verarbeiten die unter Punkt 1 genannten pseudonymisierten Geräte- und Nutzungsdaten.
+Um meine App stetig zu verbessern und das Nutzerverhalten zu verstehen, nutze ich den Analysedienst Mixpanel. Dieser Dienst verarbeitet die unter Punkt 1 genannten pseudonymisierten Geräte- und Nutzungsdaten nur nach deiner ausdrücklichen Einwilligung.
 
-Google Analytics for Firebase & Firebase Crashlytics
-Ich nutze in meiner App Entwickler- und Analysedienste von Firebase. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland (Mutterunternehmen: Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA).
+Mixpanel
+Ich nutze außerdem Mixpanel als Analysedienst zur Auswertung der Nutzung meiner App. Anbieter ist Mixpanel, Inc. Mixpanel wird erst aktiviert, nachdem du ausdrücklich eingewilligt hast. Ohne deine Einwilligung findet kein Analyse-Tracking über Mixpanel statt.
 
-Google Analytics for Firebase: Dieser Dienst hilft mir zu verstehen, wie Nutzer mit der App interagieren (z. B. Bildschirmaufrufe, genutzte Funktionen, Sitzungsdauer). Dabei werden unter anderem Werbekennungen (IDFA/AAID) und die IP-Adresse (in anonymisierter Form) erfasst.
+Im Falle einer Einwilligung verarbeitet Mixpanel insbesondere Nutzungs- und Interaktionsdaten, um die Funktionalität und Benutzerfreundlichkeit der App zu verbessern. Dazu gehören nach aktueller Implementierung technische Informationen wie App-Version, Plattform und Sitzungszeitpunkt, anonyme Sitzungskennungen, aufgerufene Screens, die Verweildauer auf einzelnen Screens, die ausgewählte App-Sprache, das verwendete Kartendeck, die Anzahl der Spieler in einer Session, die aktuelle Rundennummer sowie Kennungen zu angezeigten Karten und ausgewählten oder bestätigten Bildmotiven. Außerdem kann erfasst werden, welche Rolle ein Nutzer im Spielkontext hat, z. B. als auswählender oder ratender Spieler.
 
-Firebase Crashlytics: Um die Stabilität meiner App zu gewährleisten, nutze ich Crashlytics. Wenn die App abstürzt, wird automatisch ein Fehlerbericht (Crash-Log) an Google gesendet. Dieser Bericht enthält technische Statusinformationen zum Zeitpunkt des Absturzes (z. B. Gerätetyp, Betriebssystemversion, freier Arbeitsspeicher), jedoch keine darüber hinausgehenden persönlichen Daten.
-
-Die erfassten Informationen werden in der Regel an Server von Google in den USA übertragen und dort gespeichert. Die Übermittlung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Weitere Informationen zum Datenschutz bei Firebase und Google findest du hier: https://firebase.google.com/support/privacy.
+Nach aktueller Implementierung werden keine Spielernamen, keine frei eingegebenen Texte und keine Kontaktinformationen an Mixpanel übermittelt. Mixpanel kann darüber hinaus technisch erforderliche Basisinformationen wie anonyme Geräte- oder Installationskennungen sowie allgemeine Nutzungs- und Sitzungsinformationen verarbeiten. Welche Daten im Einzelnen verarbeitet werden, hängt auch von der konkreten SDK-Konfiguration ab. Weitere Informationen zum Datenschutz bei Mixpanel findest du hier: https://mixpanel.com/legal/privacy-policy/ sowie unter https://mixpanel.com/legal/app-store-privacy-details/.
 
 Rechtsgrundlage:
-Die Erfassung von Absturzberichten (Crashlytics) zur Sicherstellung der technischen Stabilität der App erfolgt auf Grundlage meines berechtigten Interesses (Art. 6 Abs. 1 lit. f DSGVO). Die Analyse des Nutzerverhaltens (Google Analytics) erfolgt ausschließlich auf Grundlage deiner Einwilligung beim ersten Start der App (Art. 6 Abs. 1 lit. a DSGVO).
+Die Analyse des Nutzerverhaltens über Mixpanel erfolgt ausschließlich auf Grundlage deiner Einwilligung beim ersten Start der App (Art. 6 Abs. 1 lit. a DSGVO).
 
 4. Allgemeine Datenschutzinformationen zu App und Social Media
 Im Folgenden informiere ich über die weitere Verarbeitung personenbezogener Daten im Zusammenhang mit meiner App sowie meinen Profilen in sozialen Medien.
