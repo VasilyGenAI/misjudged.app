@@ -112,7 +112,9 @@ Legal basis, withdrawal, and data processing:
 Access to information stored on your device takes place on the basis of Section 25 para. 1 TDDDG. The subsequent analysis of user behavior via Mixpanel is carried out exclusively on the basis of your consent when the app is launched for the first time (Art. 6 para. 1 lit. a GDPR).
 
 Withdrawal:
-You can withdraw your consent at any time with effect for the future. To do so, open the menu in the app (icon in the top right) -> Privacy Settings and adjust the relevant toggle.
+You have the right to withdraw at any time, with effect for the future, any consent you have previously given me for data processing, for example for tracking and analytics purposes.
+To make withdrawal as easy as possible, you can manage these settings directly in the app itself. To do so, open the menu in the app (icon in the top right) -> Privacy Settings and adjust the relevant toggle.
+As soon as you deactivate the toggle, no further analytics data will be transmitted from your device to me or to third-party providers. The lawfulness of the data processing that took place before your withdrawal remains unaffected.
 
 Storage location and U.S. connection:
 I have configured Mixpanel in a privacy-friendly manner so that your data is primarily processed and stored on servers within the European Union (EU). However, since Mixpanel is a U.S. company, occasional access to data from the USA, for example through the provider's technical support or maintenance work, cannot be completely ruled out. In such cases, any transfer of data to the USA is safeguarded by the European Commission's adequacy decision (EU-U.S. Data Privacy Framework) as well as by the conclusion of standard contractual clauses.

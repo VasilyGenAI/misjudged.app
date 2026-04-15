@@ -112,7 +112,9 @@ Rechtsgrundlage, Widerruf und Datenverarbeitung:
 Der Zugriff auf Informationen deines Endgeräts erfolgt auf Grundlage von § 25 Abs. 1 TDDDG. Die anschließende Analyse des Nutzerverhaltens über Mixpanel erfolgt ausschließlich auf Grundlage deiner Einwilligung beim ersten Start der App (Art. 6 Abs. 1 lit. a DSGVO).
 
 Widerruf:
-Du kannst deine Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. Öffne dazu in der App das Menü (Symbol rechts oben) -> Datenschutz-Einstellungen und passe den entsprechenden Schieberegler an.
+Du hast das Recht, eine mir einmal erteilte Einwilligung zur Datenverarbeitung, z. B. für Tracking- und Analysezwecke, jederzeit mit Wirkung für die Zukunft zu widerrufen.
+Um dir den Widerruf so einfach wie möglich zu machen, kannst du diese Einstellungen direkt in der App selbst verwalten. Öffne dazu das Menü (Symbol rechts oben) -> Datenschutz-Einstellungen und passe den entsprechenden Schieberegler an.
+Sobald du den Regler deaktivierst, werden keine weiteren Analysedaten mehr von deinem Gerät an mich oder an Drittanbieter übertragen. Die Rechtmäßigkeit der Datenverarbeitung, die bis zu deinem Widerruf stattgefunden hat, bleibt davon unberührt.
 
 Speicherort und US-Bezug:
 Ich habe Mixpanel datenschutzfreundlich so konfiguriert, dass deine Daten primär auf Servern innerhalb der Europäischen Union (EU) verarbeitet und gespeichert werden. Da Mixpanel jedoch ein US-amerikanisches Unternehmen ist, kann ein gelegentlicher Datenzugriff aus den USA, z. B. durch technische Support- oder Wartungsarbeiten des Anbieters, nicht restlos ausgeschlossen werden. Für diesen Fall ist eine etwaige Datenübermittlung in die USA durch den Angemessenheitsbeschluss der EU-Kommission (EU-U.S. Data Privacy Framework) sowie durch den Abschluss von Standardvertragsklauseln abgesichert.
