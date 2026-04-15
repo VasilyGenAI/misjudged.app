@@ -14,14 +14,18 @@ const LEGAL_TEXT = {
     imprintTitle: 'Impressum',
     sectionHeadings: [
       'Angaben gemäß § 5 DDG',
+      'Anbieter und Verantwortlicher für diese App',
       'Anbieter und Verantwortlicher für diese App:',
       'EU-Streitbeilegung',
       'Verbraucherstreitbeilegung / Universalschlichtungsstelle',
+      'Angaben zur Berufshaftpflichtversicherung',
+      'Name und Anschrift des Versicherers:',
       'Haftungsausschluss (Disclaimer)',
+      'Kontakt',
       'Kontakt:',
     ],
     contactLabel: 'Kontakt',
-    metaPatterns: [/^Vasily Schob/, /^Straße der Jugend 18/, /^14974 Ludwigsfelde/, /^Deutschland$/, /^Telefon:/],
+    metaPatterns: [/^Vasily Schob/, /^Straße der Jugend 18/, /^14974 Ludwigsfelde/, /^Deutschland$/, /^Telefon:/, /^E-Mail:/, /^Hiscox SA, Niederlassung für Deutschland$/, /^Bernhard-Wicki-Str\. 3$/, /^80636 München$/, /^Geltungsraum der Versicherung:/],
     liabilityHeadings: ['Haftung für Inhalte', 'Haftung für Links'],
     agbSubHeadings: [
       'Preisgestaltung',
@@ -36,14 +40,18 @@ const LEGAL_TEXT = {
     imprintTitle: 'Imprint',
     sectionHeadings: [
       'Information according to Section 5 DDG',
+      'Provider and person responsible for this app',
       'Provider and person responsible for this app:',
       'EU dispute resolution',
       'Consumer dispute resolution / universal arbitration board',
+      'Information on professional liability insurance',
+      'Name and address of the insurer:',
       'Disclaimer',
+      'Contact',
       'Contact:',
     ],
     contactLabel: 'Contact',
-    metaPatterns: [/^Vasily Schob/, /^Straße der Jugend 18/, /^14974 Ludwigsfelde/, /^Germany$/, /^Phone:/],
+    metaPatterns: [/^Vasily Schob/, /^Straße der Jugend 18/, /^14974 Ludwigsfelde/, /^Germany$/, /^Phone:/, /^Email:/, /^Hiscox SA, Niederlassung für Deutschland$/, /^Bernhard-Wicki-Str\. 3$/, /^80636 München$/, /^Scope of insurance:/],
     liabilityHeadings: ['Liability for Content', 'Liability for Links'],
     agbSubHeadings: [
       'Pricing',
@@ -58,14 +66,18 @@ const LEGAL_TEXT = {
     imprintTitle: 'Вихідні дані',
     sectionHeadings: [
       'Інформація відповідно до § 5 DDG',
+      'Постачальник і відповідальна особа за цей застосунок',
       'Постачальник і відповідальна особа за цей застосунок:',
       'Врегулювання спорів у ЄС',
       'Споживче врегулювання спорів / універсальна арбітражна установа',
+      'Відомості про страхування професійної відповідальності',
+      'Назва та адреса страховика:',
       'Відмова від відповідальності',
+      'Контакт',
       'Контакт:',
     ],
     contactLabel: 'Контакт',
-    metaPatterns: [/^Vasily Schob/, /^Straße der Jugend 18/, /^14974 Ludwigsfelde/, /^Німеччина$/, /^Телефон:/],
+    metaPatterns: [/^Василь Шоб/, /^Straße der Jugend 18/, /^14974 Ludwigsfelde/, /^Німеччина$/, /^Телефон:/, /^Email:/, /^Hiscox SA, Niederlassung für Deutschland$/, /^Bernhard-Wicki-Str\. 3$/, /^80636 München$/, /^Територія дії страхування:/],
     liabilityHeadings: ['Відповідальність за зміст', 'Відповідальність за посилання'],
     agbSubHeadings: [
       'Ціноутворення',
@@ -316,10 +328,18 @@ function appendRichText(element, text) {
 
 function createImpressumNode(line) {
   const locale = LEGAL_TEXT[siteLanguage];
+  const liabilityHeading = locale.liabilityHeadings.find((heading) => heading === line);
 
   if (line === locale.imprintTitle) {
     const heading = document.createElement('h2');
     heading.textContent = line;
+    return heading;
+  }
+
+  if (liabilityHeading) {
+    const heading = document.createElement('h3');
+    heading.textContent = liabilityHeading;
+    heading.id = createHeadingId(liabilityHeading);
     return heading;
   }
 
