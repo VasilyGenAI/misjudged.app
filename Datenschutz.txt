@@ -102,14 +102,20 @@ Android: Gehe zu Einstellungen > Google > Anzeigen und wähle die Option „Werb
 Um meine App stetig zu verbessern und das Nutzerverhalten zu verstehen, nutze ich den Analysedienst Mixpanel. Dieser Dienst verarbeitet die unter Punkt 1 genannten pseudonymisierten Geräte- und Nutzungsdaten nur nach deiner ausdrücklichen Einwilligung.
 
 Mixpanel
-Ich nutze außerdem Mixpanel als Analysedienst zur Auswertung der Nutzung meiner App. Anbieter ist Mixpanel, Inc. Mixpanel wird erst aktiviert, nachdem du ausdrücklich eingewilligt hast. Ohne deine Einwilligung findet kein Analyse-Tracking über Mixpanel statt.
+Ich nutze außerdem Mixpanel als Analysedienst zur Auswertung der Nutzung meiner App. Anbieter ist die Mixpanel, Inc., One Front Street, 28th Floor, San Francisco, CA 94111, USA. Mixpanel wird erst aktiviert, nachdem du ausdrücklich eingewilligt hast. Ohne deine Einwilligung findet kein Analyse-Tracking über Mixpanel statt.
 
 Im Falle einer Einwilligung verarbeitet Mixpanel insbesondere Nutzungs- und Interaktionsdaten, um die Funktionalität und Benutzerfreundlichkeit der App zu verbessern. Dazu gehören nach aktueller Implementierung technische Informationen wie App-Version, Plattform und Sitzungszeitpunkt, anonyme Sitzungskennungen, aufgerufene Screens, die Verweildauer auf einzelnen Screens, die ausgewählte App-Sprache, das verwendete Kartendeck, die Anzahl der Spieler in einer Session, die aktuelle Rundennummer sowie Kennungen zu angezeigten Karten und ausgewählten oder bestätigten Bildmotiven. Außerdem kann erfasst werden, welche Rolle ein Nutzer im Spielkontext hat, z. B. als auswählender oder ratender Spieler.
 
 Nach aktueller Implementierung werden keine Spielernamen, keine frei eingegebenen Texte und keine Kontaktinformationen an Mixpanel übermittelt. Mixpanel kann darüber hinaus technisch erforderliche Basisinformationen wie anonyme Geräte- oder Installationskennungen sowie allgemeine Nutzungs- und Sitzungsinformationen verarbeiten. Welche Daten im Einzelnen verarbeitet werden, hängt auch von der konkreten SDK-Konfiguration ab. Weitere Informationen zum Datenschutz bei Mixpanel findest du hier: https://mixpanel.com/legal/privacy-policy/ sowie unter https://mixpanel.com/legal/app-store-privacy-details/.
 
-Rechtsgrundlage:
-Die Analyse des Nutzerverhaltens über Mixpanel erfolgt ausschließlich auf Grundlage deiner Einwilligung beim ersten Start der App (Art. 6 Abs. 1 lit. a DSGVO).
+Rechtsgrundlage, Widerruf und Datenverarbeitung:
+Der Zugriff auf Informationen deines Endgeräts erfolgt auf Grundlage von § 25 Abs. 1 TDDDG. Die anschließende Analyse des Nutzerverhaltens über Mixpanel erfolgt ausschließlich auf Grundlage deiner Einwilligung beim ersten Start der App (Art. 6 Abs. 1 lit. a DSGVO).
+
+Widerruf:
+Du kannst deine Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. Öffne dazu in der App das Menü (Symbol rechts oben) -> Datenschutz-Einstellungen und passe den entsprechenden Schieberegler an.
+
+Speicherort und US-Bezug:
+Ich habe Mixpanel datenschutzfreundlich so konfiguriert, dass deine Daten primär auf Servern innerhalb der Europäischen Union (EU) verarbeitet und gespeichert werden. Da Mixpanel jedoch ein US-amerikanisches Unternehmen ist, kann ein gelegentlicher Datenzugriff aus den USA, z. B. durch technische Support- oder Wartungsarbeiten des Anbieters, nicht restlos ausgeschlossen werden. Für diesen Fall ist eine etwaige Datenübermittlung in die USA durch den Angemessenheitsbeschluss der EU-Kommission (EU-U.S. Data Privacy Framework) sowie durch den Abschluss von Standardvertragsklauseln abgesichert.
 
 4. Allgemeine Datenschutzinformationen zu App und Social Media
 Im Folgenden informiere ich über die weitere Verarbeitung personenbezogener Daten im Zusammenhang mit meiner App sowie meinen Profilen in sozialen Medien.

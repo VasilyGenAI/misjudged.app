@@ -102,14 +102,20 @@ Android: Go to Settings > Google > Ads and select “Delete advertising ID” or
 In order to continuously improve my app and understand user behavior, I use the analytics service Mixpanel. This service processes the pseudonymized device and usage data described in section 1 only after your explicit consent.
 
 Mixpanel
-I also use Mixpanel as an analytics service to evaluate how my app is used. The provider is Mixpanel, Inc. Mixpanel is only activated after you have expressly given your consent. Without your consent, no analytics tracking via Mixpanel takes place.
+I also use Mixpanel as an analytics service to evaluate how my app is used. The provider is Mixpanel, Inc., One Front Street, 28th Floor, San Francisco, CA 94111, USA. Mixpanel is only activated after you have expressly given your consent. Without your consent, no analytics tracking via Mixpanel takes place.
 
 If consent is given, Mixpanel processes usage and interaction data in particular in order to improve the functionality and user-friendliness of the app. According to the current implementation, this includes technical information such as app version, platform, and session time, anonymous session identifiers, accessed screens, the time spent on individual screens, the selected app language, the deck used, the number of players in a session, the current round number, and identifiers for displayed cards and selected or confirmed image motifs. It may also be recorded which role a user has in the game context, for example as the selecting or guessing player.
 
 According to the current implementation, no player names, no freely entered texts, and no contact information are transmitted to Mixpanel. Mixpanel may also process technically required basic information such as anonymous device or installation identifiers and general usage and session information. Which data is processed in detail also depends on the specific SDK configuration. Further information on data protection at Mixpanel can be found here: https://mixpanel.com/legal/privacy-policy/ and https://mixpanel.com/legal/app-store-privacy-details/.
 
-Legal basis:
-The analysis of user behavior via Mixpanel is carried out exclusively on the basis of your consent when the app is launched for the first time (Art. 6 para. 1 lit. a GDPR).
+Legal basis, withdrawal, and data processing:
+Access to information stored on your device takes place on the basis of Section 25 para. 1 TDDDG. The subsequent analysis of user behavior via Mixpanel is carried out exclusively on the basis of your consent when the app is launched for the first time (Art. 6 para. 1 lit. a GDPR).
+
+Withdrawal:
+You can withdraw your consent at any time with effect for the future. To do so, open the menu in the app (icon in the top right) -> Privacy Settings and adjust the relevant toggle.
+
+Storage location and U.S. connection:
+I have configured Mixpanel in a privacy-friendly manner so that your data is primarily processed and stored on servers within the European Union (EU). However, since Mixpanel is a U.S. company, occasional access to data from the USA, for example through the provider's technical support or maintenance work, cannot be completely ruled out. In such cases, any transfer of data to the USA is safeguarded by the European Commission's adequacy decision (EU-U.S. Data Privacy Framework) as well as by the conclusion of standard contractual clauses.
 
 4. General privacy information for app and social media
 Below I provide information about the further processing of personal data in connection with my app and my profiles on social media.
