@@ -28,39 +28,47 @@ This data includes:
 - Browser
 - Operating system and its interface
 - Language and version of the browser software
-This data is also stored in log files. It is deleted when storage is no longer necessary, at the latest after 14 days.
+This data is also stored in log files. The collection and storage of these server log files is based on Art. 6 para. 1 lit. f GDPR. I have a legitimate interest in the technically error-free presentation and optimization of my website, which requires the collection of server log files. It is deleted when storage is no longer necessary, at the latest after 14 days.
 
 2.3. Web hosting and provision of the website
-My website is provided through GitHub Pages. The provider is GitHub, Inc., 88 Colin P. Kelly Jr. St, San Francisco, CA 94107, USA.
-When the website is accessed, GitHub processes personal data, in particular your IP address, in order to transmit the contents of the website to your device and to ensure the security and stability of the service (log files). The legal basis for this processing is my legitimate interest in the secure and efficient provision of my website pursuant to Art. 6 para. 1 lit. f GDPR.
-As GitHub is a U.S. company, a transfer of data to the USA cannot be ruled out. GitHub relies on the EU Commission's standard contractual clauses and the EU-U.S. Data Privacy Framework.
+I host my website with GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.
+When you visit my website, personal data, in particular your IP address, is processed on GitHub's servers. This is necessary in order to deliver the contents of my website to your device and to ensure the secure and stable provision of the website.
+The use of GitHub is based on Art. 6 para. 1 lit. f GDPR. I have a legitimate interest in the most reliable and secure presentation and provision of my website possible.
+As the data processing takes place in the USA, I point out that GitHub is certified under the EU-U.S. Data Privacy Framework. Insofar as a transfer to a third country takes place, I also rely on the European Commission's standard contractual clauses in order to ensure an adequate level of data protection.
 Further information can be found in GitHub's privacy statement at: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement.
-The legal basis for a transfer to a country outside the EEA is the standard contractual clauses. The security of the data transferred to the third country (that is, a country outside the EEA) is ensured by standard data protection clauses adopted under the review procedure pursuant to Art. 93 para. 2 GDPR (Art. 46 para. 2 lit. c GDPR), which I have agreed with the provider.
 
 2.4. Contact form
 When you contact me via the contact form on my website, I store the data requested there and the content of your message.
 The legal basis for the processing is my legitimate interest in responding to inquiries addressed to me. Therefore, the legal basis for the processing is Art. 6 para. 1 sentence 1 lit. f GDPR.
 I delete the data collected in this context after storage is no longer necessary or restrict processing if statutory retention obligations exist.
 
-2.5. Technically necessary cookies
-My website uses cookies. Cookies are small text files stored in the web browser on the end device of a website visitor. Cookies help to make the service more user-friendly, effective, and secure. Insofar as these cookies are required for the operation of my website or its functions (hereinafter “Technically necessary cookies”), the legal basis for the associated data processing is Art. 6 para. 1 sentence 1 lit. f GDPR. I have a legitimate interest in providing customers and other visitors with a functioning website.
-Specifically, I use technically necessary cookies for the following purpose or purposes:
-- Cookies that store language settings
+2.4.1. Contact by email
+If you contact me by email, your email, including the personal data contained in it (for example your name, email address, and inquiry), will be stored and processed by me for the purpose of handling your request.
+This data is processed on the basis of Art. 6 para. 1 lit. b GDPR if your inquiry is related to the performance of a contract or is necessary to carry out pre-contractual measures, for example support regarding my app. In all other cases, the processing is based on my legitimate interest in effectively handling inquiries addressed to me pursuant to Art. 6 para. 1 lit. f GDPR.
+
+2.5. Cookies and web analytics
+I use cookies and similar technologies on my website. In doing so, I distinguish between technically necessary cookies and cookies used for analytics purposes.
+
+2.5.1. Technically necessary (essential) cookies
+Certain cookies are strictly necessary for the secure and error-free operation of my website. The storage of these cookies on your device and the access to them are based on Section 25 para. 2 TDDDG. The subsequent processing of personal data is based on my legitimate interest in the error-free, secure, and user-friendly provision of my website pursuant to Art. 6 para. 1 lit. f GDPR.
+This includes in particular cookies that allow me to store your cookie choice and language settings for the website.
+
+2.5.2. Analytics cookies (Google Analytics 4)
+In addition, I use Google Analytics 4 to measure the performance of my website and to analyze user behavior, such as page views, time spent on pages, and click paths. As the sole developer, I want to understand how visitors reach my website and which content is most relevant. Only on this basis can I continuously improve the usability of my website and further develop and market my app in a targeted manner.
+The provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. In the context of use, processing may also be carried out by Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+These analytics cookies are only set if you have given me your prior explicit consent via my cookie banner.
+The legal basis for storing these cookies on your device is Section 25 para. 1 TDDDG. The subsequent processing of your data is based on your consent pursuant to Art. 6 para. 1 lit. a GDPR. You can withdraw your consent at any time with effect for the future by adjusting the cookie settings on my website.
+[[COOKIE_SETTINGS_BUTTON]]
+Further information can be found in the provider's privacy policy at: https://policies.google.com/privacy?hl=en.
 
 2.6. Third-party providers
-2.6.1. Google Analytics
-I use Google Analytics for analysis. For users in the European Economic Area, the provider is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. In the context of data processing, data may be transferred to the parent company Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
-The provider processes usage data (for example, websites visited, interest in content, access times) and metadata / communication data (for example, device information, IP addresses).
-The legal basis for processing is Art. 6 para. 1 sentence 1 lit. a GDPR. Processing is carried out on the basis of consent. Data subjects can revoke their consent at any time by contacting me, for example via the contact details provided in my privacy policy. Revocation does not affect the lawfulness of processing carried out before the revocation.
-The legal basis for the transfer to a country outside the EEA is the standard contractual clauses. Further information can be found in the provider's privacy policy at https://policies.google.com/privacy?hl=en.
-
-2.6.2. Framer
+2.6.1. Framer
 I use Framer for design. The provider is Framer B.V., Rozengracht 207 B, 1016LZ Amsterdam, Netherlands. The provider processes usage data (for example, websites visited, interest in content, access times) and metadata / communication data (for example, device information, IP addresses) in the USA.
 The legal basis for processing is Art. 6 para. 1 sentence 1 lit. a GDPR. Processing is carried out on the basis of consent. Data subjects can revoke their consent at any time by contacting me, for example via the contact details provided in my privacy policy. Revocation does not affect the lawfulness of processing carried out before the revocation.
 The legal basis for the transfer to a country outside the EEA is the standard contractual clauses. The security of the data transferred to the third country (that is, a country outside the EEA) is ensured by standard data protection clauses adopted under the review procedure pursuant to Art. 93 para. 2 GDPR (Art. 46 para. 2 lit. c GDPR), which I have agreed with the provider.
 The data is deleted when the purpose for which it was collected no longer applies and there is no retention obligation to the contrary. Further information can be found in the provider's privacy policy at https://www.framer.com/legal/privacy-statement/.
 
-2.6.3. FormSubmit
+2.6.2. FormSubmit
 I use FormSubmit for the contact form on my website. Through this service, the content data entered into the form (for example name, email address, subject, and message) is processed and forwarded to my email address. Further information can be found in the provider's privacy policy at https://formsubmit.co/privacy.pdf.
 
 Part 2: Privacy for App and Social Media

@@ -12,6 +12,7 @@ const TUTORIAL_YT_IDS = {
 const LEGAL_TEXT = {
   de: {
     imprintTitle: 'Impressum',
+    cookieSettingsButtonLabel: 'Cookie-Einstellungen ändern',
     sectionHeadings: [
       'Angaben gemäß § 5 DDG',
       'Anbieter und Verantwortlicher für diese App',
@@ -38,6 +39,7 @@ const LEGAL_TEXT = {
   },
   en: {
     imprintTitle: 'Imprint',
+    cookieSettingsButtonLabel: 'Change cookie settings',
     sectionHeadings: [
       'Information according to Section 5 DDG',
       'Provider and person responsible for this app',
@@ -64,6 +66,7 @@ const LEGAL_TEXT = {
   },
   uk: {
     imprintTitle: 'Вихідні дані',
+    cookieSettingsButtonLabel: 'Змінити налаштування cookie',
     sectionHeadings: [
       'Інформація відповідно до § 5 DDG',
       'Постачальник і відповідальна особа за цей застосунок',
@@ -141,6 +144,13 @@ function formatLegalText(text, source) {
       continue;
     }
 
+    if (trimmed === '[[COOKIE_SETTINGS_BUTTON]]') {
+      list = null;
+      listMode = null;
+      wrapper.appendChild(createCookieSettingsButton());
+      continue;
+    }
+
     if (isImpressum) {
       const impressumNode = createImpressumNode(trimmed);
       if (impressumNode) {
@@ -165,6 +175,16 @@ function formatLegalText(text, source) {
       list = null;
       listMode = null;
       const heading = document.createElement('h2');
+      heading.textContent = trimmed;
+      heading.id = createHeadingId(trimmed);
+      wrapper.appendChild(heading);
+      continue;
+    }
+
+    if (/^\d+(?:\.\d+){2,}\.\s+/.test(trimmed)) {
+      list = null;
+      listMode = null;
+      const heading = document.createElement('h4');
       heading.textContent = trimmed;
       heading.id = createHeadingId(trimmed);
       wrapper.appendChild(heading);
@@ -241,8 +261,8 @@ function preprocessLegalText(text, source) {
   const isPrivacySource = sourceName === 'datenschutz.txt' || sourceName === 'privacy.txt';
   let normalized = text
     .replace(/\r/g, '')
-    .replace(/([^\n])\s+(\d+\.\d+\.\s+)/g, '$1\n$2')
-    .replace(/^(\d+\.\d+\.\s+[^.\n:]{2,120})\s+([A-ZÄÖÜ])/gm, '$1\n$2')
+    .replace(/([^\n])\s+(\d+(?:\.\d+){1,}\.\s+)/g, '$1\n$2')
+    .replace(/^(\d+(?:\.\d+){1,}\.\s+[^.\n:]{2,120})\s+([A-ZÄÖÜ])/gm, '$1\n$2')
     .replace(/^(\d+\.\s+[^\n]{2,90}?)\s+(?=(Wenn|Um|Im|Bei|Auf|Die|Der|Das|Du|Ich|Bitte|Vasily|Gelegentlich|Diese|Soweit|Bestimmte|Kunden)\b)/gm, '$1\n')
     .replace(/^(Automatische Verlängerung und Kündigung|Widerrufsbelehrung|Folgen des Widerrufs|Vorzeitiges Erlöschen des Widerrufsrechts bei digitalen Inhalten)\s+(?=[A-ZÄÖÜ])/gm, '$1\n')
     .replace(/^(Kontakt:)\s+(.*)$/gm, '$1\n$2')
@@ -289,7 +309,7 @@ function shouldBecomeListItem(line, listMode) {
     return false;
   }
 
-  return !/^\d+\.\d+\.\s+/.test(line) && !/^\d+\.\s+/.test(line);
+  return !/^\d+(?:\.\d+){1,}\.\s+/.test(line) && !/^\d+\.\s+/.test(line);
 }
 
 function shouldStartList(line) {
@@ -324,6 +344,25 @@ function appendRichText(element, text) {
       element.appendChild(document.createTextNode(part));
     }
   }
+}
+
+function createCookieSettingsButton() {
+  const locale = LEGAL_TEXT[siteLanguage];
+  const wrapper = document.createElement('div');
+  wrapper.className = 'legal-action';
+
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'button button--ghost legal-action__button';
+  button.textContent = locale.cookieSettingsButtonLabel;
+  button.addEventListener('click', () => {
+    if (window.CookieConsent && typeof window.CookieConsent.showPreferences === 'function') {
+      window.CookieConsent.showPreferences();
+    }
+  });
+
+  wrapper.appendChild(button);
+  return wrapper;
 }
 
 function createImpressumNode(line) {

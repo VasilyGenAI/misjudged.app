@@ -241,7 +241,10 @@ body.legal-page {
   justify-content: center;
   min-height: 48px;
   padding: 0.85rem 1.2rem;
+  border: none;
   border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
   text-decoration: none;
   font-weight: 700;
 }
@@ -714,6 +717,14 @@ body.legal-page {
 .legal-text p + h4,
 .legal-text ul + h4 {
   padding-top: 0.4rem;
+}
+
+.legal-action {
+  margin: 0 0 1.4rem;
+}
+
+.legal-action__button {
+  width: auto;
 }
 
 .legal-error {

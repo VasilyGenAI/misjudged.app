@@ -28,39 +28,47 @@ Diese Daten sind:
 - Browser
 - Betriebssystem und dessen Oberfläche
 - Sprache und Version der Browsersoftware
-Diese Daten werden außerdem in Logfiles gespeichert. Sie werden gelöscht, wenn ihre Speicherung nicht mehr erforderlich ist, spätestens nach 14 Tagen.
+Diese Daten werden außerdem in Logfiles gespeichert. Die Erfassung und Speicherung dieser Server-Logfiles erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Ich habe ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und der Optimierung meiner Website; hierzu müssen die Server-Logfiles erfasst werden. Sie werden gelöscht, wenn ihre Speicherung nicht mehr erforderlich ist, spätestens nach 14 Tagen.
 
 2.3. Webhosting und Bereitstellung der Website
-Meine Website wird über GitHub Pages bereitgestellt. Anbieter ist die GitHub, Inc., 88 Colin P. Kelly Jr. St, San Francisco, CA 94107, USA.
-GitHub verarbeitet beim Aufruf der Website personenbezogene Daten, insbesondere Ihre IP-Adresse, um die Inhalte der Website an Ihr Endgerät zu übermitteln sowie zur Gewährleistung der Sicherheit und Stabilität des Dienstes (Logfiles). Die Rechtsgrundlage für diese Verarbeitung ist mein berechtigtes Interesse an einer sicheren und effizienten Bereitstellung meiner Website gemäß Art. 6 Abs. 1 lit. f DSGVO.
-Da GitHub ein US-Unternehmen ist, kann eine Übermittlung von Daten in die USA nicht ausgeschlossen werden. GitHub stützt sich dabei auf die Standardvertragsklauseln der EU-Kommission sowie das EU-U.S. Data Privacy Framework.
+Ich hoste meine Website bei der GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.
+Wenn Sie meine Website besuchen, werden personenbezogene Daten, insbesondere Ihre IP-Adresse, auf den Servern von GitHub verarbeitet. Dies ist erforderlich, um die Inhalte meiner Website an Ihr Endgerät zu übermitteln und die sichere sowie stabile Bereitstellung der Website zu gewährleisten.
+Die Nutzung von GitHub erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Ich habe ein berechtigtes Interesse an einer möglichst zuverlässigen und sicheren Darstellung sowie Bereitstellung meiner Website.
+Da die Datenverarbeitung in den USA erfolgt, weise ich darauf hin, dass GitHub unter dem EU-U.S. Data Privacy Framework zertifiziert ist. Soweit eine Übermittlung in ein Drittland erfolgt, stütze ich diese zudem auf die Standardvertragsklauseln der EU-Kommission, um ein angemessenes Datenschutzniveau sicherzustellen.
 Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub unter: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement.
-Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist durch gemäß dem Prüfverfahren nach Art. 93 Abs. 2 DSGVO erlassene Standarddatenschutzklauseln gewährleistet (Art. 46 Abs. 2 lit. c DSGVO), die ich mit dem Anbieter vereinbart habe.
 
 2.4. Kontaktformular
 Bei Kontaktaufnahme über das Kontaktformular auf meiner Website speichere ich die dort abgefragten Daten und den Inhalt der Nachricht.
 Rechtsgrundlage für die Verarbeitung ist mein berechtigtes Interesse, an mich gerichtete Anfragen zu beantworten. Rechtsgrundlage für die Verarbeitung ist deshalb Art. 6 Abs. 1 S. 1 lit. f DSGVO.
 Die in diesem Zusammenhang anfallenden Daten lösche ich, nachdem die Speicherung nicht mehr erforderlich ist, oder schränke die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen.
 
-2.5. Technisch notwendige Cookies
-Meine Website setzt Cookies. Cookies sind kleine Textdateien, die im Webbrowser auf dem Endgerät eines Seitenbesuchers gespeichert werden. Cookies helfen dabei, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Soweit diese Cookies für den Betrieb meiner Website oder ihre Funktionen erforderlich sind (nachfolgend „Technisch notwendige Cookies“), ist Rechtsgrundlage der damit verbundenen Datenverarbeitung Art. 6 Abs. 1 S. 1 lit. f DSGVO. Ich habe ein berechtigtes Interesse, Kunden und anderen Seitenbesuchern eine funktionsfähige Website zur Verfügung zu stellen.
-Konkret setze ich technisch notwendige Cookies zu dem folgenden Zweck oder den folgenden Zwecken:
-- Cookies, die Spracheinstellungen übernehmen
+2.4.1. Kontaktaufnahme per E-Mail
+Wenn Sie mich per E-Mail kontaktieren, wird Ihre E-Mail inklusive der darin enthaltenen personenbezogenen Daten (z.B. Name, E-Mail-Adresse und Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens bei mir gespeichert und verarbeitet.
+Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist, etwa bei Supportanfragen zu meiner App. In allen übrigen Fällen beruht die Verarbeitung auf meinem berechtigten Interesse an der effektiven Bearbeitung der an mich gerichteten Anfragen gemäß Art. 6 Abs. 1 lit. f DSGVO.
+
+2.5. Cookies und Webanalyse
+Auf meiner Website setze ich Cookies und ähnliche Technologien ein. Dabei unterscheide ich zwischen technisch notwendigen Cookies und solchen, die Analysezwecken dienen.
+
+2.5.1. Technisch notwendige (essenzielle) Cookies
+Für den sicheren und fehlerfreien Betrieb meiner Website sind bestimmte Cookies zwingend erforderlich. Die Speicherung dieser Cookies auf Ihrem Endgerät und der Zugriff darauf erfolgen auf Grundlage von § 25 Abs. 2 TDDDG. Die anschließende Verarbeitung personenbezogener Daten erfolgt auf Grundlage meines berechtigten Interesses an der fehlerfreien, sicheren und nutzerfreundlichen Bereitstellung meiner Website gemäß Art. 6 Abs. 1 lit. f DSGVO.
+Hierzu zählen insbesondere Cookies, mit denen ich Ihre Cookie-Auswahl sowie Spracheinstellungen der Website speichern kann.
+
+2.5.2. Analyse-Cookies (Google Analytics 4)
+Zusätzlich verwende ich Google Analytics 4, um die Performance meiner Website zu messen und das Nutzerverhalten zu analysieren, etwa Seitenaufrufe, Verweildauer und Klickwege. Als alleiniger Entwickler möchte ich verstehen, wie Besucher auf meine Website gelangen und welche Inhalte besonders relevant sind. Nur auf dieser Grundlage kann ich die Benutzerfreundlichkeit meiner Website verbessern und meine App gezielt weiterentwickeln und vermarkten.
+Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Im Rahmen der Nutzung kann eine Verarbeitung auch durch die Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, erfolgen.
+Diese Analyse-Cookies werden nur dann gesetzt, wenn Sie mir hierzu zuvor über mein Cookie-Banner Ihre ausdrückliche Einwilligung erteilt haben.
+Die Rechtsgrundlage für das Speichern dieser Cookies auf Ihrem Endgerät ist § 25 Abs. 1 TDDDG. Die anschließende Verarbeitung Ihrer Daten erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie die Cookie-Einstellungen auf meiner Website anpassen.
+[[COOKIE_SETTINGS_BUTTON]]
+Weitere Informationen finden Sie in der Datenschutzerklärung des Anbieters unter: https://policies.google.com/privacy?hl=de.
 
 2.6. Drittanbieter
-2.6.1. Google Analytics
-Ich setze Google Analytics zur Analyse ein. Anbieter für Nutzer im Europäischen Wirtschaftsraum ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Im Rahmen der Datenverarbeitung kann eine Übermittlung an das Mutterunternehmen Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, erfolgen.
-Der Anbieter verarbeitet Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten) und Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
-Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO. Die Verarbeitung erfolgt auf der Basis von Einwilligungen. Betroffene können ihre Einwilligung jederzeit widerrufen, indem sie mich z.B. unter den in meiner Datenschutzerklärung angegebenen Kontaktdaten kontaktieren. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung bis zum Widerruf.
-Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://policies.google.com/privacy?hl=de abrufbar.
-
-2.6.2. Framer
+2.6.1. Framer
 Ich setze Framer zum Design ein. Der Anbieter ist Framer B.V., Rozengracht 207 B, 1016LZ Amsterdam, Niederlande. Der Anbieter verarbeitet Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten) und Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen) in den USA.
 Die Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. a DSGVO. Die Verarbeitung erfolgt auf der Basis von Einwilligungen. Betroffene können ihre Einwilligung jederzeit widerrufen, indem sie mich z.B. unter den in meiner Datenschutzerklärung angegebenen Kontaktdaten kontaktieren. Der Widerruf berührt nicht die Rechtmäßigkeit der Verarbeitung bis zum Widerruf.
 Rechtsgrundlage der Übermittlung in ein Land außerhalb des EWR sind Standardvertragsklauseln. Die Sicherheit der in das Drittland (also einem Land außerhalb des EWR) übermittelten Daten ist durch gemäß dem Prüfverfahren nach Art. 93 Abs. 2 DSGVO erlassene Standarddatenschutzklauseln gewährleistet (Art. 46 Abs. 2 lit. c DSGVO), die ich mit dem Anbieter vereinbart habe.
 Die Daten werden gelöscht, wenn der Zweck ihrer Erhebung entfallen ist und keine Aufbewahrungspflicht entgegensteht. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://www.framer.com/legal/privacy-statement/ abrufbar.
 
-2.6.3. FormSubmit
+2.6.2. FormSubmit
 Ich setze FormSubmit für das Kontaktformular auf meiner Website ein. Über diesen Dienst werden die im Formular eingegebenen Inhaltsdaten (z.B. Name, E-Mail-Adresse, Betreff und Nachricht) verarbeitet und an meine E-Mail-Adresse weitergeleitet. Weitere Informationen sind in der Datenschutzerklärung des Anbieters unter https://formsubmit.co/privacy.pdf abrufbar.
 
 Teil 2: Datenschutz zu App und Social Media
