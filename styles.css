@@ -890,43 +890,55 @@ body.legal-page {
 
   .hero__content {
     width: min(1680px, calc(100vw - 4rem));
-    grid-template-columns: minmax(380px, 0.88fr) minmax(680px, 1.12fr);
+    grid-template-columns: 1fr;
     justify-content: stretch;
-    gap: clamp(2.5rem, 4vw, 4.5rem);
-    min-height: calc(100vh - 92px);
-    padding: 4rem 0 4.5rem;
+    gap: 1.75rem;
+    min-height: auto;
+    padding: 3rem 0 4.5rem;
   }
 
   .hero__visual {
     width: 100%;
-    min-height: clamp(540px, 72vh, 760px);
     justify-self: stretch;
-    padding: clamp(1.75rem, 2vw, 2.5rem);
+    padding: clamp(1.5rem, 1.8vw, 2.25rem) clamp(2rem, 4vw, 4rem);
   }
 
   .hero__copy {
     max-width: none;
-    min-height: clamp(540px, 72vh, 760px);
-    padding: clamp(2.25rem, 2.6vw, 3.4rem);
+    min-height: auto;
+    padding: clamp(2.8rem, 4vw, 4.5rem) clamp(2.5rem, 4.8vw, 5rem);
   }
 
   .hero__copy h1 {
-    max-width: 11ch;
-    font-size: clamp(3.8rem, 4.6vw, 5.8rem);
+    max-width: 14ch;
+    font-size: clamp(5.25rem, 6.4vw, 8rem);
+    line-height: 1.02;
   }
 
   .lead {
-    max-width: 48ch;
-    font-size: 1.2rem;
+    max-width: 62ch;
+    font-size: 1.5rem;
   }
 
   .hero__actions {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
+    gap: 1rem;
   }
 
   .hero__welcome {
-    width: min(100%, 560px);
-    max-height: min(64vh, 620px);
+    width: min(100%, 1360px);
+    max-height: none;
+  }
+
+  .hero__copy .eyebrow {
+    font-size: 0.92rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero__actions .button {
+    min-height: 58px;
+    padding: 1rem 1.5rem;
+    font-size: 1.02rem;
   }
 }
 
