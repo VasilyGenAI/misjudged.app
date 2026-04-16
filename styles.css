@@ -154,7 +154,6 @@ body.legal-page {
 
 .hero {
   position: relative;
-  min-height: 100vh;
   overflow: clip;
 }
 
@@ -182,6 +181,24 @@ body.legal-page {
   align-items: stretch;
   min-height: calc(100vh - 76px);
   padding: 2.2rem 0 3rem;
+}
+
+.hero--image {
+  min-height: auto;
+  padding: 1rem 0 0;
+}
+
+.hero__image-shell {
+  width: min(1680px, calc(100vw - 1.5rem));
+  margin: 0 auto;
+}
+
+.hero__first-image {
+  width: 100%;
+  max-height: min(72vh, 880px);
+  object-fit: contain;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-soft);
 }
 
 .card-glass {
@@ -294,6 +311,41 @@ body.legal-page {
   padding: 5.5rem 0;
 }
 
+.section--bg-two,
+.section--bg-three {
+  position: relative;
+  overflow: clip;
+}
+
+.section--bg-two::before,
+.section--bg-three::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section--bg-two::before {
+  background-image:
+    linear-gradient(180deg, rgba(247, 242, 232, 0.36), rgba(247, 242, 232, 0.2)),
+    url("Images/Zweites_Background.png");
+}
+
+.section--bg-three::before {
+  background-image:
+    linear-gradient(180deg, rgba(247, 242, 232, 0.32), rgba(247, 242, 232, 0.18)),
+    url("Images/Drittes_Background.png");
+}
+
+.section--bg-two > .shell,
+.section--bg-three > .shell {
+  position: relative;
+  z-index: 1;
+}
+
 .section--contrast {
   background: linear-gradient(180deg, rgba(255, 247, 239, 0.22), rgba(255, 228, 198, 0.14));
 }
@@ -333,8 +385,9 @@ body.legal-page {
 .benefit-card,
 .abstract-card {
   background:
-    linear-gradient(145deg, rgba(227, 241, 250, 0.72), rgba(241, 247, 251, 0.62) 58%, rgba(255, 237, 220, 0.34));
-  border: 1px solid rgba(216, 232, 241, 0.72);
+    linear-gradient(145deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.1) 58%, rgba(255, 255, 255, 0.08));
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(18px);
 }
 
 .content-card--text {
@@ -529,6 +582,10 @@ body.legal-page {
   border: 0;
   box-shadow: var(--shadow-soft);
   background: #000000;
+}
+
+.content-card--hero {
+  width: 100%;
 }
 
 .site-footer {
@@ -949,6 +1006,14 @@ body.legal-page {
     padding: 1rem 1.5rem;
     font-size: 1.02rem;
   }
+
+  .hero__image-shell {
+    width: calc(100vw - 3rem);
+  }
+
+  .hero__first-image {
+    max-height: min(70vh, 760px);
+  }
 }
 
 @media (max-width: 720px) {
@@ -965,6 +1030,14 @@ body.legal-page {
   .hero__content {
     min-height: auto;
     padding-top: 2rem;
+  }
+
+  .hero__image-shell {
+    width: calc(100vw - 1rem);
+  }
+
+  .hero__first-image {
+    max-height: none;
   }
 
   .hero__copy,
