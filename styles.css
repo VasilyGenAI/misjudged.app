@@ -899,33 +899,33 @@ body.legal-page {
     max-width: none;
     grid-template-columns: 1fr;
     justify-content: stretch;
-    gap: 1.4rem;
+    gap: 1.6rem;
     min-height: auto;
-    padding: 1.75rem 0 4rem;
+    padding: 1.75rem 0 4.5rem;
   }
 
   .hero__visual {
     width: 100%;
     justify-self: stretch;
-    min-height: clamp(260px, 38vw, 480px);
-    padding: clamp(1.5rem, 1.8vw, 2.25rem) clamp(2rem, 5vw, 5.5rem);
+    min-height: clamp(170px, 16vw, 240px);
+    padding: 1.1rem clamp(2rem, 5vw, 5rem);
   }
 
   .hero__copy {
     max-width: none;
-    min-height: auto;
-    padding: clamp(2.6rem, 3.5vw, 4.2rem) clamp(2.4rem, 5vw, 6rem);
+    min-height: clamp(420px, 42vw, 560px);
+    padding: clamp(2.6rem, 3.8vw, 4.2rem) clamp(2.4rem, 5vw, 5.5rem);
   }
 
   .hero__copy h1 {
-    max-width: 100%;
-    font-size: clamp(4.8rem, 6vw, 7.8rem);
-    line-height: 1.02;
+    max-width: 18ch;
+    font-size: clamp(3.8rem, 4.6vw, 5.8rem);
+    line-height: 1.06;
   }
 
   .lead {
-    max-width: 100%;
-    font-size: clamp(1.35rem, 1.6vw, 1.85rem);
+    max-width: 72ch;
+    font-size: clamp(1.28rem, 1.35vw, 1.6rem);
   }
 
   .hero__actions {
@@ -934,14 +934,14 @@ body.legal-page {
   }
 
   .hero__welcome {
-    width: 100%;
-    max-width: none;
-    max-height: 100%;
+    width: min(100%, 760px);
+    max-width: 760px;
+    max-height: 150px;
   }
 
   .hero__copy .eyebrow {
-    font-size: 0.92rem;
-    margin-bottom: 1rem;
+    font-size: 0.88rem;
+    margin-bottom: 1.2rem;
   }
 
   .hero__actions .button {
