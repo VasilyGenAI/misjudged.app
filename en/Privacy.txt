@@ -147,6 +147,14 @@ right to withdraw consent at any time.
 Data subjects also have the right to lodge a complaint with a data protection supervisory authority regarding the processing of their personal data. Contact details of the data protection supervisory authorities can be found at https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html.
 4.5.1. Deletion of data
 To exercise your right to have your data deleted, please send a request to my contact email address: misjudged.support@gmail.com.
+4.5.2. Right to object in individual cases
+You have the right to object at any time, on grounds relating to your particular situation, to the processing of personal data concerning you that is carried out on the basis of Art. 6 para. 1 lit. f GDPR.
+If you object, I will no longer process your personal data unless I can demonstrate compelling legitimate grounds for the processing that override your interests, rights, and freedoms, or the processing serves the establishment, exercise, or defense of legal claims.
+4.5.3. Objection to data processing for direct marketing purposes
+In individual cases, I process your personal data in order to carry out direct marketing, for example newsletters.
+You have the right to object at any time to the processing of personal data concerning you for the purpose of such marketing.
+If you object to processing for direct marketing purposes, I will no longer process your personal data for those purposes.
+You may submit your objection in any form, preferably by email to: misjudged.support@gmail.com.
 4.6. Obligation to provide data
 Customers, interested parties, or third parties only need to provide me with those personal data within the context of a business relationship or other relationship that are necessary for the establishment, performance, and termination of the business relationship or other relationship or that I am legally obliged to collect. Without this data, I will generally have to refuse the conclusion of a contract or the provision of a service, or will no longer be able to perform an existing contract or other relationship.
 Mandatory information is marked as such.
@@ -184,7 +192,9 @@ I maintain a profile on LinkedIn. The operator is LinkedIn Ireland Unlimited Com
 I maintain a profile on Threads. The operator is Meta Platforms Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland. The privacy policy is available here: https://help.instagram.com/515230437301944.
 6.9. Pinterest
 I maintain a profile on Pinterest. The operator is Pinterest Europe Ltd., Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Ireland. The privacy policy is available here: https://policy.pinterest.com/en/privacy-policy. A possibility to object to data processing arises via the personalization and data settings: https://help.pinterest.com/en/article/personalization-and-data.
-7. Changes to this privacy policy
-I reserve the right to amend this privacy policy with effect for the future. A current version is always available here.
+7. Currency and changes to this privacy policy
+This privacy policy is currently valid and was last updated on 17 April 2026.
+Changes to this privacy policy may become necessary due to changes in legal or regulatory requirements.
+The current version is available on my website.
 8. Questions and comments
 If you have questions or comments regarding this privacy policy, please feel free to contact me using the contact details given above.
