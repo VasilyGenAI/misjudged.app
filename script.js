@@ -261,7 +261,7 @@ function preprocessLegalText(text, source) {
   const isPrivacySource = sourceName === 'datenschutz.txt' || sourceName === 'privacy.txt';
   let normalized = text
     .replace(/\r/g, '')
-    .replace(/([^\n])\s+(\d+(?:\.\d+){1,}\.\s+)/g, '$1\n$2')
+    .replace(/([.!?])(?:[ \t]+)(\d+(?:\.\d+){1,}\.[ \t]+[A-ZÄÖÜ])/g, '$1\n$2')
     .replace(/^(\d+(?:\.\d+){1,}\.\s+[^.\n:]{2,120})\s+([A-ZÄÖÜ])/gm, '$1\n$2')
     .replace(/^(\d+\.\s+[^\n]{2,90}?)\s+(?=(Wenn|Um|Im|Bei|Auf|Die|Der|Das|Du|Ich|Bitte|Vasily|Gelegentlich|Diese|Soweit|Bestimmte|Kunden)\b)/gm, '$1\n')
     .replace(/^(Automatische Verlängerung und Kündigung|Widerrufsbelehrung|Folgen des Widerrufs|Vorzeitiges Erlöschen des Widerrufsrechts bei digitalen Inhalten)\s+(?=[A-ZÄÖÜ])/gm, '$1\n')
